@@ -1,0 +1,3 @@
+COMPONENT=BSNNodeAppC
+include $(MAKERULES)
+
