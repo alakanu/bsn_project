@@ -1,4 +1,4 @@
-#include "ECG_DATA/ECG_DATA_1.h"
+#include "DATA/ECG_DATA/ECG_DATA_1.h"
  
 generic module ECGSensorP() {
 

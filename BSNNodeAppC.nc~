@@ -20,7 +20,7 @@ implementation {
  	Node.Receive -> AMReceiverC;
  	Node.AMSend -> AMSenderC;
 	Node.AMControl -> ActiveMessageC;
-	Node.Timer0 -> Timer;
+	Node.Timer -> Timer;
 	Node.Packet -> AMSenderC;
 
 }

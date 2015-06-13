@@ -122,6 +122,7 @@ implementation {
   }
 
   event void Timer.fired() {
+	dbg("main", "%s - Nodo %hhu ricevuto sparo timer. \n", sim_time_string(), TOS_NODE_ID);
     sampleCounter++;
     call ACCRead.read();
     if(sampleCounter < 200) {

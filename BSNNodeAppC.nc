@@ -17,6 +17,7 @@ implementation {
 	Node.ACCSplitControl -> ACC;
 	Node.ECGRead -> ECG;
 	Node.ECGSplitControl -> ECG;
+	Node.PacketAcknowledgements -> ActiveMessageC;
  	Node.Receive -> AMReceiverC;
  	Node.AMSend -> AMSenderC;
 	Node.AMControl -> ActiveMessageC;
