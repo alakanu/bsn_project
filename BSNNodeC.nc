@@ -50,7 +50,7 @@ implementation {
       call ECGSplitControl.start();
 
     } else {
-      response = 0
+      response = 0;
       sampleCounter = 0;
       accumulator = 0;
       call ACCSplitControl.start();
@@ -105,15 +105,15 @@ implementation {
   event message_t* Receive.receive(message_t* buf,void* payload, uint8_t len) {
     
     my_msg_t* msg=(my_msg_t*)payload;
-    uint16_t type = mess->type;
+    uint16_t type = msg->type;
     
     if(type == START && TOS_NODE_ID != 0) {
       post startMonitoring();
       dbg("main", "%s - Nodo %hhu ricevuto messaggio START. \n", sim_time_string(), TOS_NODE_ID);
     } else if (type != START && TOS_NODE_ID == 0) {
-      if(resp == CRISIS) {
+      if(type == CRISIS) {
         crisis++;
-      } else if(resp == MOVEMENT) {
+      } else if(type == MOVEMENT) {
         movements++;
       }
       responseCounter++;
@@ -133,7 +133,7 @@ implementation {
     }   
   }
 
-  event void AMSend.sendDone(message_t* bufPtr, error_t error) {
+  event void AMSend.sendDone(message_t* buf, error_t err) {
     if(&packet == buf && err == SUCCESS ) {
       if ( call PacketAcknowledgements.wasAcked( buf ) ) {
         if(TOS_NODE_ID == 0) {
@@ -163,7 +163,7 @@ implementation {
   }
 
   event void ACCRead.readDone(error_t result, uint16_t data) {
-    accumulator+= value;
+    accumulator+= data;
       if(sampleCounter == 200) {
         post storeResponse();
       }
@@ -195,7 +195,7 @@ implementation {
     msg->type = START;
     dbg("main", "%s - Tentativo inizio sessione di monitoraggio,\n", sim_time_string());
     call PacketAcknowledgements.requestAck( &packet );
-    call AMSend.send(AM_BROADCAST_ADDR,&packet,sizeof(my_msg_t))
+    call AMSend.send(AM_BROADCAST_ADDR,&packet,sizeof(my_msg_t));
   }
 
  
@@ -204,11 +204,9 @@ implementation {
     if((crisis+movements) > 2) {
       call ECGRead.read();
     } else {
-      post startSession();
-      dbg("main", "%s OUTPUT = NO_MOVEMENT\n", sim_time_string());
+      dbg("main", "%s - OUTPUT = NO_MOVEMENT\n", sim_time_string());
+      post startSession();   
     }
-
-
   }
 
   task void sendResponse() {
