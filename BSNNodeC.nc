@@ -35,9 +35,7 @@ implementation {
   task void sendResponse();
   task void storeResponse();
   task void startMonitoring();
-  task void updateResponses(uint16_t);
   task void evaluateSituation();
-  task void registerValue(uint16_t);
   
   
   
@@ -113,7 +111,11 @@ implementation {
       post startMonitoring();
       dbg("main", "%s - Nodo %hhu ricevuto messaggio START. \n", sim_time_string(), TOS_NODE_ID);
     } else if (type != START && TOS_NODE_ID == 0) {
-      post updateResponses(type);
+      if(resp == CRISIS) {
+        crisis++;
+      } else if(resp == MOVEMENT) {
+        movements++;
+      }
       responseCounter++;
       dbg("main", "%s - Nodo %hhu ricevuto %hhu responsi. \n", sim_time_string(), TOS_NODE_ID,responseCounter);
       if(responseCounter == 4) {
@@ -161,7 +163,10 @@ implementation {
   }
 
   event void ACCRead.readDone(error_t result, uint16_t data) {
-    post registerValue((uint32_t)data);
+    accumulator+= value;
+      if(sampleCounter == 200) {
+        post storeResponse();
+      }
   }
 
   event void ECGRead.readDone(error_t result, uint16_t data) {
@@ -193,13 +198,7 @@ implementation {
     call AMSend.send(AM_BROADCAST_ADDR,&packet,sizeof(my_msg_t))
   }
 
-  task void updateResponses(uint16_t resp) {
-    if(resp == CRISIS) {
-      crisis++;
-    } else if(resp == MOVEMENT) {
-      movements++;
-    }
-  }
+ 
 
   task void evaluateSituation() {
     if((crisis+movements) > 2) {
@@ -231,12 +230,6 @@ implementation {
     call AMControl.start();
   }
 
-  task void registerValue(uint32_t value) {
-      accumulator+= value;
-      if(sampleCounter == 200) {
-        post storeResponse();
-      }
-  }
 
   task void startMonitoring() {
     response = 0;
