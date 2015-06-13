@@ -191,8 +191,8 @@ implementation {
     responseCounter = 0;
     crisis = 0;
     movements = 0;
-    my_msg_t* msg = (my_msg_t*)(call Packet.getPayload(&packet,sizeof(my_msg_t)));
-    msg->type = START;
+    my_msg_t* mess = (my_msg_t*)(call Packet.getPayload(&packet,sizeof(my_msg_t)));
+    mess->type = START;
     dbg("main", "%s - Tentativo inizio sessione di monitoraggio,\n", sim_time_string());
     call PacketAcknowledgements.requestAck( &packet );
     call AMSend.send(AM_BROADCAST_ADDR,&packet,sizeof(my_msg_t));
