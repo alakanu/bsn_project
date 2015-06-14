@@ -1,4 +1,4 @@
-#include "ACC_DATA/ACC_DATA_1.h"
+#include "ACC_DATA/ACC_DATA_2.h"
  
 generic module ACCSensorP() {
 

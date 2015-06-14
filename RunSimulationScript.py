@@ -30,7 +30,8 @@ simulation_outfile = "simulation.txt";
 #print "Saving sensors simulation output to:", simulation_outfile;
 simulation_out = open(simulation_outfile, "w");
 
-out = open(simulation_outfile, "w");
+# -------> SE VUOI FAR STAMPARE L'OUTPUT IN simulation.txt TOGLI L'ASTERISCO AL PRIMO out E METTILO AL SECONDO <-----------
+#out = open(simulation_outfile, "w");
 out = sys.stdout;
 
 #Add debug channel
@@ -84,8 +85,9 @@ for i in range(0, 5):
 
 print "Inizio simulazione con TOSSIM! \n\n\n";
 
-for i in range(0,1000000):
+for i in range(0, 100000):
 	t.runNextEvent()
+
 	
 print "\n\n\nSimulazione finita!";
 
