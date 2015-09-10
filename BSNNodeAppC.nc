@@ -1,4 +1,4 @@
-#include "BSN.h"
+#include "BSNNode.h"
 
 configuration BSNNodeAppC {}
 implementation {

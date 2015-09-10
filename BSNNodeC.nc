@@ -1,5 +1,5 @@
 #include "Timer.h"
-#include "BSN.h"
+#include "BSNNode.h"
  
 
 module BSNNodeC  {
@@ -32,7 +32,6 @@ implementation {
 	uint16_t responseCounter; //Numero di risposte arrivato nella sessione
 
 	task void startSession(); 
-	task void evaluateSituation();
 
 	/* SEZIONE NODO ACC */
 
@@ -69,7 +68,7 @@ implementation {
 			dbg_clear("main", "%s - Nodo %hhu: trasmettitore acceso. \n", sim_time_string(), TOS_NODE_ID);
 			/*Nei nodi ACC response all'inizio è 0 e viene cambiato col valore da mandare solo alla fine della sessione
 			* di monitoraggio, quando viene riacceso il trasmettitore del nodo ACC e viene quindi inviata la risposta */
-			if(TOS_NODE_ID != 0 && response != 0) {
+			if(TOS_NODE_ID != 0 && response != START) {
 				/*I nodi ACC trasmettono con un ritardo che per comodità dipende dal loro ID, in modo da evitare collisioni */
 				call TimerSendDelay.startOneShot(TOS_NODE_ID*DELAY); 
 			} 
@@ -85,9 +84,7 @@ implementation {
 	*/
 	event void ECGSplitControl.startDone(error_t err) {
 		if (err == SUCCESS) {
-			if (TOS_NODE_ID == 0) {
-				post startSession();
-			}
+			post startSession();
 		} else {
 			call ECGSplitControl.start();
 		}
@@ -95,9 +92,7 @@ implementation {
 	
 	event void ACCSplitControl.startDone(error_t err) {
 		if (err != SUCCESS) {
-			if (TOS_NODE_ID != 0) {
-				call ACCSplitControl.start();
-			}
+			call ACCSplitControl.start();
 		}
 	}
 	
@@ -118,41 +113,39 @@ implementation {
 		uint16_t type = msg->type; 
 		/*Quando i nodi diversi da 0 ricevono lo START iniziano a campionare tramite gli ACC */
 		if(type == START && TOS_NODE_ID != 0) {
-			post startMonitoring();
 			dbg_clear("main", "%s - Nodo %hhu: ricevuto messaggio START. \n", sim_time_string(), TOS_NODE_ID);
+			post startMonitoring();
+			
 		/*Quando il nodo 0 riceve un codice di risposta, registra se questo è un CRISIS o MOVEMENT ed incrementa il contatore
 		* delle risposte arrivate. 
 		* Non serve registrare un NO_MOVEMENT in quanto l'output del sistema può essere considerato NO_MOVEMENT di base, in modo che
 		* solo i CRISIS ed i MOVEMENT possano alterare questo output 
 		*/
 		} else if (type != START && TOS_NODE_ID == 0) {
-			if(type == CRISIS) {
-				crisis++; //Se arriva CRISIS incremento il numero di questi arrivati
-			} else if(type == MOVEMENT) {
-				movements++; //Se arriva MOVEMENT incremento il numero di questi arrivati
-			}
 			responseCounter++; //Incremento il numero di risposte arrivate
 			switch(type) {
 				case(NO_MOVEMENT):
 					dbg_clear("main", "%s - Nodo 0: ricevuto NO_MOVEMENT da Nodo %hhu\n", sim_time_string(), call AMPacket.source( buf ));
 					break;
 				case(MOVEMENT):
+					movements++;
 		 			dbg_clear("main", "%s - Nodo 0: ricevuto MOVEMENT da Nodo %hhu\n", sim_time_string(), call AMPacket.source( buf ));
 					break;
 				case(CRISIS):
+					crisis++;
 					dbg_clear("main", "%s - Nodo 0: ricevuto CRISIS da Nodo %hhu\n", sim_time_string(), call AMPacket.source( buf ));
 					break;
 			}
 			/*Se tutti i quattro nodi periferici hanno segnalato un codice di risposta, inizio a calcolare l'output del sistema */
 			if(responseCounter == 4) {
-				post evaluateSituation();  
+				call ECGRead.read();  
 			} 
 		}
 		return buf;
 	}
 	
 	/**
-	* Gestisce lo scader di TimerRead: incrementa il numero di campioni ottenuto e se non sono stati ancora ottenuti 200 campioni
+	* Gestisce lo scadere di TimerRead: incrementa il numero di campioni ottenuto e se non sono stati ancora ottenuti 200 campioni
 	* fa partire un altro campionamento e reimposta TimerRead a 50 ms (frequenza campionamento 20Hz). 
 	*/
 	event void TimerRead.fired() {
@@ -177,15 +170,16 @@ implementation {
 	event void AMSend.sendDone(message_t* buf, error_t err) {
 		if(err == SUCCESS ) {
 			/* Il nodo 0 invia solo messaggi di START, quindi se il ID è 0 è avvenuto il broadcast di START */
-			if(TOS_NODE_ID == 0) {
-				dbg_clear("main", "%s - ***Sessione di monitoraggio iniziata*** \n", sim_time_string());
-			}
+			
 			/*I nodi ACC trasmettono i codici di risposta in unicast al nodo 0, richiedendo ack, se questo non arriva
 			* procedono al reinvio del codice di risposta 
 			*/
-			if ( !(call PacketAcknowledgements.wasAcked( buf )) && TOS_NODE_ID != 0 ) {
-				dbg_clear("main", "%s - Nodo %hhu: ack non arrivato, reinvio in corso...\n", sim_time_string(), TOS_NODE_ID);
-				post sendResponse();
+			if ( !(call PacketAcknowledgements.wasAcked( buf )))
+				if(TOS_NODE_ID == 0) {
+					dbg_clear("main", "%s - Nodo %hhu: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. \n", sim_time_string(),TOS_NODE_ID);
+				} else {
+					dbg_clear("main", "%s - Nodo %hhu: ack non arrivato, reinvio in corso...\n", sim_time_string(), TOS_NODE_ID);
+					post sendResponse();
 			}
 		/*Se l'invio di qualunque pacchetto fallisce, viene ritentato l'invio */
 		} else {
@@ -203,7 +197,7 @@ implementation {
 	* inizio a computare la risposta da inviare 
 	*/
 	event void ACCRead.readDone(error_t result, uint16_t data) {
-		accumulator+= data;
+		accumulator += data;
 		if(sampleCounter == 200) {
 			post computeResponse();
 		}
@@ -216,10 +210,14 @@ implementation {
 	*/
 	event void ECGRead.readDone(error_t result, uint16_t data) {
 		dbg_clear("main", "%s - Nodo 0: risultato ECG = %hhu\n", sim_time_string(), data);
-		if(data == 1 && crisis > 1) {
-			dbg_clear("main", "%s OUTPUT = CRISIS !!!!!!!!!!!!!!!!!!\n", sim_time_string());
+		if((crisis+movements) > 2) {
+			if(data == 1 && crisis > 1)  {
+				dbg_clear("main", "\n%s OUTPUT = CRISIS !!!!!!!!!!!!!!!!!!\n", sim_time_string());
+			} else {
+				dbg_clear("main", "\n%s OUTPUT = MOVEMENT\n", sim_time_string());
+			}
 		} else {
-			dbg_clear("main", "%s OUTPUT = MOVEMENT\n", sim_time_string());
+			dbg_clear("main", "\n%s - OUTPUT = NO_MOVEMENT\n", sim_time_string());  
 		}
 		post startSession();
 	}
@@ -246,19 +244,7 @@ implementation {
 		call AMSend.send(AM_BROADCAST_ADDR,&packet,sizeof(my_msg_t));
 	}
 	
-	/**
-	* Se la somma dei responsi CRISIS e MOVEMENT è almeno 3, inizia la lettura del ECG.
-	* Altrimenti l'output del sistema è NO_MOVEMENT e viene iniziata una nuova sessione. 
-	*/
-
-	task void evaluateSituation() {
-		if((crisis+movements) > 2) {
-			call ECGRead.read();
-		} else {
-			dbg_clear("main", "%s - ***OUTPUT = NO_MOVEMENT***\n", sim_time_string());
-			post startSession();   
-		}
-	}
+	
 
 	
 	/* -----------------ACC NODE SECTION----------------- */
@@ -291,7 +277,8 @@ implementation {
 	*/
 
 	task void computeResponse() {
-		float result =((float)accumulator)*AVG_FACTOR;
+		float result = (float)accumulator*RESIZE;
+		
 		dbg_clear("main", "%s - Nodo %hhu: accumulatore = %d , media scalata = %f .\n", sim_time_string(), TOS_NODE_ID, accumulator,result);
 		if(result < MTHR) {
 			dbg_clear("main", "%s - Nodo %hhu: responso NO_MOVEMENT.\n", sim_time_string(), TOS_NODE_ID);

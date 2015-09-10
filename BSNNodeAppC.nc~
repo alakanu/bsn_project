@@ -1,4 +1,4 @@
-#include "BSN.h"
+#include "BSNNode.h"
 
 configuration BSNNodeAppC {}
 implementation {
@@ -7,7 +7,7 @@ implementation {
 	components new AMSenderC(AM_RADIO_BSN_MSG);
 	components new AMReceiverC(AM_RADIO_BSN_MSG);
 	components new TimerMilliC() as TimerRead;
-	components new TimerMillic() as TimerSendDelay;
+	components new TimerMilliC() as TimerSendDelay;
 	components ActiveMessageC;
 	components new ACCSensorC() as ACC;
 	components new ECGSensorC() as ECG;
