@@ -165,10 +165,14 @@ implementation {
 	* fa partire un altro campionamento e reimposta TimerRead a 50 ms (frequenza campionamento 20Hz). 
 	*/
 	event void TimerRead.fired() {
-		sampleCounter++;
-		call ACCRead.read();
-		if(sampleCounter < 200) {
-			call TimerRead.startOneShot( 50 );
+		if(TOS_NODE_ID != 0) { 
+			sampleCounter++;
+			call ACCRead.read();
+			if(sampleCounter < 200) {
+				call TimerRead.startOneShot( 50 );
+			}
+		} else { 
+			call AMControl.start();
 		}   
 	}
 	
@@ -193,6 +197,8 @@ implementation {
 			if ( !(call PacketAcknowledgements.wasAcked( buf )))
 				if(TOS_NODE_ID == 0) {
 					dbg_clear("main", "%s - Nodo %hhu: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero %hhu \n", sim_time_string(),TOS_NODE_ID,counter);
+					call AMControl.stop();
+					call TimerRead.startOneShot( 9000 );
 				} else {
 					dbg_clear("main", "%s - Nodo %hhu: ack non arrivato, reinvio in corso...\n", sim_time_string(), TOS_NODE_ID);
 					post sendResponse();
@@ -278,7 +284,7 @@ implementation {
 		if(counter <12) {
 			counter++;
 		} else {
-			dbg_clear("main", "\n\n\n%s - FINEEEEEEEEEEEEEEEEEEE\n", sim_time_string());
+			dbg_clear("main", "\n\n\n%s - FINE\n", sim_time_string());
 			return;
 		}
 		messaggio->type = START;
