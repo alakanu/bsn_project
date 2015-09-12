@@ -278,7 +278,7 @@ implementation {
 		if(counter <12) {
 			counter++;
 		} else {
-			dbg_clear("main", "\n\n\n%s - FINE\n", sim_time_string());
+			dbg_clear("main", "\n\n\n%s - FINEEEEEEEEEEEEEEEEEEE\n", sim_time_string());
 			return;
 		}
 		messaggio->type = START;

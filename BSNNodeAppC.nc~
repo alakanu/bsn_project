@@ -16,7 +16,7 @@ implementation {
 	Node.Boot -> MainC.Boot;
 	
 	Node.SerialControl -> AM;
-	Node.AMSendSerial -> AM.AMSend[AM_BSN_MSG];
+	Node.AMSendSerial -> AM.AMSend[AM_B_S_N_NODE_MSG];
 	Node.SerialPacket -> AM;
 	Node.ACCRead -> ACC;
 	Node.ACCSplitControl -> ACC;

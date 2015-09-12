@@ -1,0 +1,1766 @@
+---------------------------------------------------------------------------------------------> Scenario 1
+
+********************************************
+*                                          *
+*             TOSSIM Script                *
+*                                          *
+********************************************
+Initializing mac....
+Initializing radio channels....
+    using topology file: topology.txt
+    using noise file: meyer-heavy.txt
+Initializing simulator....
+Activate debug message on channel main
+Creo nodo 0...
+Creo nodo 1...
+Creo nodo 2...
+Creo nodo 3...
+Creo nodo 4...
+Creating radio channels...
+>>>Creando canale radio dal nodo  0  al nodo  1  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  0  al nodo  2  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  0  al nodo  3  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  0  al nodo  4  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  1  al nodo  0  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  2  al nodo  0  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  3  al nodo  0  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  4  al nodo  0  con gain  -30.0  dBm
+Initializing Closest Pattern Matching (CPM)...
+Reading noise model data file: meyer-heavy.txt
+Loading:##Done!
+>>>Creating noise model for node: 0
+>>>Creating noise model for node: 1
+>>>Creating noise model for node: 2
+>>>Creating noise model for node: 3
+>>>Creating noise model for node: 4
+Inizio simulazione con TOSSIM! 
+
+
+
+0:0:0.000000010 - Nodo 0: trasmettitore acceso. 
+0:0:0.000000010 - Nodo 1: trasmettitore acceso. 
+0:0:0.000000010 - Nodo 3: trasmettitore acceso. 
+0:0:0.000000010 - Nodo 2: trasmettitore acceso. 
+0:0:0.000000010 - Nodo 4: trasmettitore acceso. 
+
+
+
+0:0:0.001953145 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:0.006881705 - Nodo 4: ricevuto messaggio START. 
+0:0:0.006881705 - Nodo 1: ricevuto messaggio START. 
+0:0:0.006881705 - Nodo 3: ricevuto messaggio START. 
+0:0:0.006881705 - Nodo 2: ricevuto messaggio START. 
+0:0:0.006881725 - Nodo 4: trasmettitore spento. 
+0:0:0.006881725 - Nodo 1: trasmettitore spento. 
+0:0:0.006881725 - Nodo 3: trasmettitore spento. 
+0:0:0.006881725 - Nodo 2: trasmettitore spento. 
+0:0:0.007049550 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 1 
+0:0:9.725585957 - Nodo 2: responso NO_MOVEMENT.
+0:0:9.725585957 - Nodo 4: responso NO_MOVEMENT.
+0:0:9.725585957 - Nodo 1: responso NO_MOVEMENT.
+0:0:9.725585957 - Nodo 3: responso NO_MOVEMENT.
+0:0:9.725585977 - Nodo 2: trasmettitore acceso. 
+0:0:9.725585977 - Nodo 4: trasmettitore acceso. 
+0:0:9.725585977 - Nodo 1: trasmettitore acceso. 
+0:0:9.725585977 - Nodo 3: trasmettitore acceso. 
+0:0:9.735351582 - Nodo 1: NO_MOVEMENT invio in corso...
+0:0:9.740982042 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:0:9.745117207 - Nodo 2: NO_MOVEMENT invio in corso...
+0:0:9.748428345 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:0:9.754882832 - Nodo 3: NO_MOVEMENT invio in corso...
+0:0:9.764648457 - Nodo 4: NO_MOVEMENT invio in corso...
+0:0:9.765579181 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:0:9.772140479 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:0:9.773437510 - Nodo 0: risultato ECG = 0
+
+0:0:9.773437510 - OUTPUT = NO_MOVEMENT
+
+
+
+0:0:9.773437520 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:9.781677218 - Nodo 4: ricevuto messaggio START. 
+0:0:9.781677218 - Nodo 3: ricevuto messaggio START. 
+0:0:9.781677218 - Nodo 2: ricevuto messaggio START. 
+0:0:9.781677218 - Nodo 1: ricevuto messaggio START. 
+0:0:9.781677238 - Nodo 4: trasmettitore spento. 
+0:0:9.781677238 - Nodo 3: trasmettitore spento. 
+0:0:9.781677238 - Nodo 2: trasmettitore spento. 
+0:0:9.781677238 - Nodo 1: trasmettitore spento. 
+0:0:9.781845063 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 2 
+0:0:19.500000020 - Nodo 3: responso NO_MOVEMENT.
+0:0:19.500000020 - Nodo 2: responso NO_MOVEMENT.
+0:0:19.500000020 - Nodo 1: responso NO_MOVEMENT.
+0:0:19.500000020 - Nodo 4: responso NO_MOVEMENT.
+0:0:19.500000040 - Nodo 3: trasmettitore acceso. 
+0:0:19.500000040 - Nodo 2: trasmettitore acceso. 
+0:0:19.500000040 - Nodo 1: trasmettitore acceso. 
+0:0:19.500000040 - Nodo 4: trasmettitore acceso. 
+0:0:19.509765645 - Nodo 1: NO_MOVEMENT invio in corso...
+0:0:19.519348108 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:0:19.519531270 - Nodo 2: NO_MOVEMENT invio in corso...
+0:0:19.522384646 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:0:19.529296895 - Nodo 3: NO_MOVEMENT invio in corso...
+0:0:19.532058719 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:0:19.539062520 - Nodo 4: NO_MOVEMENT invio in corso...
+0:0:19.542236329 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:0:19.543945322 - Nodo 0: risultato ECG = 0
+
+0:0:19.543945322 - OUTPUT = NO_MOVEMENT
+
+
+
+0:0:19.543945332 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:19.554504352 - Nodo 4: ricevuto messaggio START. 
+0:0:19.554504352 - Nodo 3: ricevuto messaggio START. 
+0:0:19.554504352 - Nodo 2: ricevuto messaggio START. 
+0:0:19.554504352 - Nodo 1: ricevuto messaggio START. 
+0:0:19.554504372 - Nodo 4: trasmettitore spento. 
+0:0:19.554504372 - Nodo 3: trasmettitore spento. 
+0:0:19.554504372 - Nodo 2: trasmettitore spento. 
+0:0:19.554504372 - Nodo 1: trasmettitore spento. 
+0:0:19.554672198 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 3 
+0:0:29.272460957 - Nodo 2: responso NO_MOVEMENT.
+0:0:29.272460957 - Nodo 4: responso NO_MOVEMENT.
+0:0:29.272460957 - Nodo 3: responso NO_MOVEMENT.
+0:0:29.272460957 - Nodo 1: responso MOVEMENT.
+0:0:29.272460977 - Nodo 2: trasmettitore acceso. 
+0:0:29.272460977 - Nodo 4: trasmettitore acceso. 
+0:0:29.272460977 - Nodo 3: trasmettitore acceso. 
+0:0:29.272460977 - Nodo 1: trasmettitore acceso. 
+0:0:29.282226582 - Nodo 1: MOVEMENT invio in corso...
+0:0:29.291992207 - Nodo 2: NO_MOVEMENT invio in corso...
+0:0:29.292343100 - Nodo 0: ricevuto MOVEMENT da Nodo 1
+0:0:29.294692997 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:0:29.301757832 - Nodo 3: NO_MOVEMENT invio in corso...
+0:0:29.309478734 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:0:29.311523457 - Nodo 4: NO_MOVEMENT invio in corso...
+0:0:29.316925037 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:0:29.318359385 - Nodo 0: risultato ECG = 0
+
+0:0:29.318359385 - OUTPUT = NO_MOVEMENT
+
+
+
+0:0:29.318359395 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:29.324188218 - Nodo 4: ricevuto messaggio START. 
+0:0:29.324188218 - Nodo 3: ricevuto messaggio START. 
+0:0:29.324188218 - Nodo 2: ricevuto messaggio START. 
+0:0:29.324188218 - Nodo 1: ricevuto messaggio START. 
+0:0:29.324188238 - Nodo 4: trasmettitore spento. 
+0:0:29.324188238 - Nodo 3: trasmettitore spento. 
+0:0:29.324188238 - Nodo 2: trasmettitore spento. 
+0:0:29.324188238 - Nodo 1: trasmettitore spento. 
+0:0:29.324356064 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 4 
+0:0:39.041992207 - Nodo 1: responso MOVEMENT.
+0:0:39.041992207 - Nodo 4: responso NO_MOVEMENT.
+0:0:39.041992207 - Nodo 2: responso NO_MOVEMENT.
+0:0:39.041992207 - Nodo 3: responso NO_MOVEMENT.
+0:0:39.041992227 - Nodo 1: trasmettitore acceso. 
+0:0:39.041992227 - Nodo 4: trasmettitore acceso. 
+0:0:39.041992227 - Nodo 2: trasmettitore acceso. 
+0:0:39.041992227 - Nodo 3: trasmettitore acceso. 
+0:0:39.051757832 - Nodo 1: MOVEMENT invio in corso...
+0:0:39.054199224 - Nodo 0: ricevuto MOVEMENT da Nodo 1
+0:0:39.061523457 - Nodo 2: NO_MOVEMENT invio in corso...
+0:0:39.064651491 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:0:39.071289082 - Nodo 3: NO_MOVEMENT invio in corso...
+0:0:39.072937022 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:0:39.081054707 - Nodo 4: NO_MOVEMENT invio in corso...
+0:0:39.090316738 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:0:39.091796885 - Nodo 0: risultato ECG = 0
+
+0:0:39.091796885 - OUTPUT = NO_MOVEMENT
+
+
+
+0:0:39.091796895 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:39.099716160 - Nodo 4: ricevuto messaggio START. 
+0:0:39.099716160 - Nodo 3: ricevuto messaggio START. 
+0:0:39.099716160 - Nodo 2: ricevuto messaggio START. 
+0:0:39.099716160 - Nodo 1: ricevuto messaggio START. 
+0:0:39.099716180 - Nodo 4: trasmettitore spento. 
+0:0:39.099716180 - Nodo 3: trasmettitore spento. 
+0:0:39.099716180 - Nodo 2: trasmettitore spento. 
+0:0:39.099716180 - Nodo 1: trasmettitore spento. 
+0:0:39.099884006 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 5 
+0:0:48.818359395 - Nodo 2: responso NO_MOVEMENT.
+0:0:48.818359395 - Nodo 4: responso NO_MOVEMENT.
+0:0:48.818359395 - Nodo 1: responso NO_MOVEMENT.
+0:0:48.818359395 - Nodo 3: responso NO_MOVEMENT.
+0:0:48.818359415 - Nodo 2: trasmettitore acceso. 
+0:0:48.818359415 - Nodo 4: trasmettitore acceso. 
+0:0:48.818359415 - Nodo 1: trasmettitore acceso. 
+0:0:48.818359415 - Nodo 3: trasmettitore acceso. 
+0:0:48.828125020 - Nodo 1: NO_MOVEMENT invio in corso...
+0:0:48.835357643 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:0:48.837890645 - Nodo 2: NO_MOVEMENT invio in corso...
+0:0:48.847213710 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:0:48.847656270 - Nodo 3: NO_MOVEMENT invio in corso...
+0:0:48.850112920 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:0:48.857421895 - Nodo 4: NO_MOVEMENT invio in corso...
+0:0:48.864150981 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:0:48.865234385 - Nodo 0: risultato ECG = 0
+
+0:0:48.865234385 - OUTPUT = NO_MOVEMENT
+
+
+
+0:0:48.865234395 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:48.870315542 - Nodo 4: ricevuto messaggio START. 
+0:0:48.870315542 - Nodo 3: ricevuto messaggio START. 
+0:0:48.870315542 - Nodo 2: ricevuto messaggio START. 
+0:0:48.870315542 - Nodo 1: ricevuto messaggio START. 
+0:0:48.870315562 - Nodo 4: trasmettitore spento. 
+0:0:48.870315562 - Nodo 3: trasmettitore spento. 
+0:0:48.870315562 - Nodo 2: trasmettitore spento. 
+0:0:48.870315562 - Nodo 1: trasmettitore spento. 
+0:0:48.870483387 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 6 
+0:0:58.588867207 - Nodo 4: responso NO_MOVEMENT.
+0:0:58.588867207 - Nodo 2: responso NO_MOVEMENT.
+0:0:58.588867207 - Nodo 3: responso NO_MOVEMENT.
+0:0:58.588867207 - Nodo 1: responso NO_MOVEMENT.
+0:0:58.588867227 - Nodo 4: trasmettitore acceso. 
+0:0:58.588867227 - Nodo 2: trasmettitore acceso. 
+0:0:58.588867227 - Nodo 3: trasmettitore acceso. 
+0:0:58.588867227 - Nodo 1: trasmettitore acceso. 
+0:0:58.598632832 - Nodo 1: NO_MOVEMENT invio in corso...
+0:0:58.601486209 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:0:58.608398457 - Nodo 2: NO_MOVEMENT invio in corso...
+0:0:58.611206058 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:0:58.618164082 - Nodo 3: NO_MOVEMENT invio in corso...
+0:0:58.624404890 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:0:58.627929707 - Nodo 4: NO_MOVEMENT invio in corso...
+0:0:58.637268031 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:0:58.638671885 - Nodo 0: risultato ECG = 1
+
+0:0:58.638671885 - OUTPUT = NO_MOVEMENT
+
+
+
+0:0:58.638671895 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:58.640151988 - Nodo 4: ricevuto messaggio START. 
+0:0:58.640151988 - Nodo 3: ricevuto messaggio START. 
+0:0:58.640151988 - Nodo 2: ricevuto messaggio START. 
+0:0:58.640151988 - Nodo 1: ricevuto messaggio START. 
+0:0:58.640152008 - Nodo 4: trasmettitore spento. 
+0:0:58.640152008 - Nodo 3: trasmettitore spento. 
+0:0:58.640152008 - Nodo 2: trasmettitore spento. 
+0:0:58.640152008 - Nodo 1: trasmettitore spento. 
+0:0:58.640319834 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 7 
+0:1:8.358398457 - Nodo 1: responso NO_MOVEMENT.
+0:1:8.358398457 - Nodo 4: responso NO_MOVEMENT.
+0:1:8.358398457 - Nodo 2: responso NO_MOVEMENT.
+0:1:8.358398457 - Nodo 3: responso NO_MOVEMENT.
+0:1:8.358398477 - Nodo 1: trasmettitore acceso. 
+0:1:8.358398477 - Nodo 4: trasmettitore acceso. 
+0:1:8.358398477 - Nodo 2: trasmettitore acceso. 
+0:1:8.358398477 - Nodo 3: trasmettitore acceso. 
+0:1:8.368164082 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:8.373565662 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:8.377929707 - Nodo 2: NO_MOVEMENT invio in corso...
+0:1:8.381408691 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:1:8.387695332 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:8.390060431 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:1:8.397460957 - Nodo 4: NO_MOVEMENT invio in corso...
+0:1:8.400833130 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:1:8.402343760 - Nodo 0: risultato ECG = 0
+
+0:1:8.402343760 - OUTPUT = NO_MOVEMENT
+
+
+
+0:1:8.402343770 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:1:8.410949676 - Nodo 4: ricevuto messaggio START. 
+0:1:8.410949676 - Nodo 3: ricevuto messaggio START. 
+0:1:8.410949676 - Nodo 2: ricevuto messaggio START. 
+0:1:8.410949676 - Nodo 1: ricevuto messaggio START. 
+0:1:8.410949696 - Nodo 4: trasmettitore spento. 
+0:1:8.410949696 - Nodo 3: trasmettitore spento. 
+0:1:8.410949696 - Nodo 2: trasmettitore spento. 
+0:1:8.410949696 - Nodo 1: trasmettitore spento. 
+0:1:8.411117522 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 8 
+0:1:18.128906270 - Nodo 1: responso NO_MOVEMENT.
+0:1:18.128906270 - Nodo 4: responso NO_MOVEMENT.
+0:1:18.128906270 - Nodo 2: responso NO_MOVEMENT.
+0:1:18.128906270 - Nodo 3: responso NO_MOVEMENT.
+0:1:18.128906290 - Nodo 1: trasmettitore acceso. 
+0:1:18.128906290 - Nodo 4: trasmettitore acceso. 
+0:1:18.128906290 - Nodo 2: trasmettitore acceso. 
+0:1:18.128906290 - Nodo 3: trasmettitore acceso. 
+0:1:18.138671895 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:18.148132289 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:18.148437520 - Nodo 2: NO_MOVEMENT invio in corso...
+0:1:18.154632552 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:1:18.158203145 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:18.161224367 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:1:18.167968770 - Nodo 4: NO_MOVEMENT invio in corso...
+0:1:18.170028694 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:1:18.171875010 - Nodo 0: risultato ECG = 0
+
+0:1:18.171875010 - OUTPUT = NO_MOVEMENT
+
+
+
+0:1:18.171875020 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:1:18.179046609 - Nodo 4: ricevuto messaggio START. 
+0:1:18.179046609 - Nodo 3: ricevuto messaggio START. 
+0:1:18.179046609 - Nodo 2: ricevuto messaggio START. 
+0:1:18.179046609 - Nodo 1: ricevuto messaggio START. 
+0:1:18.179046629 - Nodo 4: trasmettitore spento. 
+0:1:18.179046629 - Nodo 3: trasmettitore spento. 
+0:1:18.179046629 - Nodo 2: trasmettitore spento. 
+0:1:18.179046629 - Nodo 1: trasmettitore spento. 
+0:1:18.179214454 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 9 
+0:1:27.897460957 - Nodo 4: responso NO_MOVEMENT.
+0:1:27.897460957 - Nodo 3: responso NO_MOVEMENT.
+0:1:27.897460957 - Nodo 2: responso NO_MOVEMENT.
+0:1:27.897460957 - Nodo 1: responso NO_MOVEMENT.
+0:1:27.897460977 - Nodo 4: trasmettitore acceso. 
+0:1:27.897460977 - Nodo 3: trasmettitore acceso. 
+0:1:27.897460977 - Nodo 2: trasmettitore acceso. 
+0:1:27.897460977 - Nodo 1: trasmettitore acceso. 
+0:1:27.907226582 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:27.915405245 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:27.916992207 - Nodo 2: NO_MOVEMENT invio in corso...
+0:1:27.923919657 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:1:27.926757832 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:27.934600804 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:1:27.936523457 - Nodo 4: NO_MOVEMENT invio in corso...
+0:1:27.943298320 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:1:27.944335947 - Nodo 0: risultato ECG = 0
+
+0:1:27.944335947 - OUTPUT = NO_MOVEMENT
+
+
+
+0:1:27.944335957 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:1:27.946899419 - Nodo 4: ricevuto messaggio START. 
+0:1:27.946899419 - Nodo 3: ricevuto messaggio START. 
+0:1:27.946899419 - Nodo 2: ricevuto messaggio START. 
+0:1:27.946899419 - Nodo 1: ricevuto messaggio START. 
+0:1:27.946899439 - Nodo 4: trasmettitore spento. 
+0:1:27.946899439 - Nodo 3: trasmettitore spento. 
+0:1:27.946899439 - Nodo 2: trasmettitore spento. 
+0:1:27.946899439 - Nodo 1: trasmettitore spento. 
+0:1:27.947067264 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 10 
+0:1:37.665039082 - Nodo 1: responso NO_MOVEMENT.
+0:1:37.665039082 - Nodo 3: responso NO_MOVEMENT.
+0:1:37.665039082 - Nodo 4: responso NO_MOVEMENT.
+0:1:37.665039082 - Nodo 2: responso NO_MOVEMENT.
+0:1:37.665039102 - Nodo 1: trasmettitore acceso. 
+0:1:37.665039102 - Nodo 3: trasmettitore acceso. 
+0:1:37.665039102 - Nodo 4: trasmettitore acceso. 
+0:1:37.665039102 - Nodo 2: trasmettitore acceso. 
+0:1:37.674804707 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:37.684417688 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:37.684570332 - Nodo 2: NO_MOVEMENT invio in corso...
+0:1:37.692245458 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:1:37.694335957 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:37.701354959 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:1:37.704101582 - Nodo 4: NO_MOVEMENT invio in corso...
+0:1:37.714645344 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:1:37.715820322 - Nodo 0: risultato ECG = 1
+
+0:1:37.715820322 - OUTPUT = NO_MOVEMENT
+
+
+
+0:1:37.715820332 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:1:37.724060030 - Nodo 4: ricevuto messaggio START. 
+0:1:37.724060030 - Nodo 3: ricevuto messaggio START. 
+0:1:37.724060030 - Nodo 2: ricevuto messaggio START. 
+0:1:37.724060030 - Nodo 1: ricevuto messaggio START. 
+0:1:37.724060050 - Nodo 4: trasmettitore spento. 
+0:1:37.724060050 - Nodo 3: trasmettitore spento. 
+0:1:37.724060050 - Nodo 2: trasmettitore spento. 
+0:1:37.724060050 - Nodo 1: trasmettitore spento. 
+0:1:37.724227876 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 11 
+0:1:47.442382832 - Nodo 1: responso NO_MOVEMENT.
+0:1:47.442382832 - Nodo 2: responso NO_MOVEMENT.
+0:1:47.442382832 - Nodo 3: responso NO_MOVEMENT.
+0:1:47.442382832 - Nodo 4: responso NO_MOVEMENT.
+0:1:47.442382852 - Nodo 1: trasmettitore acceso. 
+0:1:47.442382852 - Nodo 2: trasmettitore acceso. 
+0:1:47.442382852 - Nodo 3: trasmettitore acceso. 
+0:1:47.442382852 - Nodo 4: trasmettitore acceso. 
+0:1:47.452148457 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:47.456466669 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:47.456634515 - Nodo 1: ack non arrivato, reinvio in corso...
+0:1:47.456634525 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:47.461914082 - Nodo 2: NO_MOVEMENT invio in corso...
+0:1:47.462982144 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:47.471374476 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:1:47.471679707 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:47.475753780 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:1:47.477539072 - Nodo 0: risultato ECG = 0
+
+0:1:47.477539072 - OUTPUT = NO_MOVEMENT
+
+
+
+0:1:47.477539082 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:1:47.481018066 - Nodo 4: ricevuto messaggio START. 
+0:1:47.481018066 - Nodo 3: ricevuto messaggio START. 
+0:1:47.481018066 - Nodo 2: ricevuto messaggio START. 
+0:1:47.481018066 - Nodo 1: ricevuto messaggio START. 
+0:1:47.481018086 - Nodo 4: trasmettitore spento. 
+0:1:47.481018086 - Nodo 3: trasmettitore spento. 
+0:1:47.481018086 - Nodo 2: trasmettitore spento. 
+0:1:47.481018086 - Nodo 1: trasmettitore spento. 
+0:1:47.481185911 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 12 
+0:1:57.199218770 - Nodo 1: responso NO_MOVEMENT.
+0:1:57.199218770 - Nodo 3: responso NO_MOVEMENT.
+0:1:57.199218770 - Nodo 4: responso NO_MOVEMENT.
+0:1:57.199218770 - Nodo 2: responso NO_MOVEMENT.
+0:1:57.199218790 - Nodo 1: trasmettitore acceso. 
+0:1:57.199218790 - Nodo 3: trasmettitore acceso. 
+0:1:57.199218790 - Nodo 4: trasmettitore acceso. 
+0:1:57.199218790 - Nodo 2: trasmettitore acceso. 
+0:1:57.208984395 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:57.214843735 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:57.218750020 - Nodo 2: NO_MOVEMENT invio in corso...
+0:1:57.225952126 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:1:57.228515645 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:57.236495945 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:1:57.238281270 - Nodo 4: NO_MOVEMENT invio in corso...
+0:1:57.245971654 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:1:57.247070322 - Nodo 0: risultato ECG = 1
+
+0:1:57.247070322 - OUTPUT = NO_MOVEMENT
+
+
+
+0:1:57.247070332 - FINE
+
+
+
+Simulazione finita!
+
+---------------------------------------------------------------------------------------------> Scenario 2
+
+********************************************
+*                                          *
+*             TOSSIM Script                *
+*                                          *
+********************************************
+Initializing mac....
+Initializing radio channels....
+    using topology file: topology.txt
+    using noise file: meyer-heavy.txt
+Initializing simulator....
+Activate debug message on channel main
+Creo nodo 0...
+Creo nodo 1...
+Creo nodo 2...
+Creo nodo 3...
+Creo nodo 4...
+Creating radio channels...
+>>>Creando canale radio dal nodo  0  al nodo  1  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  0  al nodo  2  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  0  al nodo  3  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  0  al nodo  4  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  1  al nodo  0  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  2  al nodo  0  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  3  al nodo  0  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  4  al nodo  0  con gain  -30.0  dBm
+Initializing Closest Pattern Matching (CPM)...
+Reading noise model data file: meyer-heavy.txt
+Loading:##Done!
+>>>Creating noise model for node: 0
+>>>Creating noise model for node: 1
+>>>Creating noise model for node: 2
+>>>Creating noise model for node: 3
+>>>Creating noise model for node: 4
+Inizio simulazione con TOSSIM! 
+
+
+
+0:0:0.000000010 - Nodo 0: trasmettitore acceso. 
+0:0:0.000000010 - Nodo 1: trasmettitore acceso. 
+0:0:0.000000010 - Nodo 3: trasmettitore acceso. 
+0:0:0.000000010 - Nodo 2: trasmettitore acceso. 
+0:0:0.000000010 - Nodo 4: trasmettitore acceso. 
+
+
+
+0:0:0.001953145 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:0.006515496 - Nodo 4: ricevuto messaggio START. 
+0:0:0.006515496 - Nodo 1: ricevuto messaggio START. 
+0:0:0.006515496 - Nodo 3: ricevuto messaggio START. 
+0:0:0.006515496 - Nodo 2: ricevuto messaggio START. 
+0:0:0.006515516 - Nodo 4: trasmettitore spento. 
+0:0:0.006515516 - Nodo 1: trasmettitore spento. 
+0:0:0.006515516 - Nodo 3: trasmettitore spento. 
+0:0:0.006515516 - Nodo 2: trasmettitore spento. 
+0:0:0.006683342 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 1 
+0:0:9.724609395 - Nodo 1: responso NO_MOVEMENT.
+0:0:9.724609395 - Nodo 3: responso NO_MOVEMENT.
+0:0:9.724609395 - Nodo 4: responso NO_MOVEMENT.
+0:0:9.724609395 - Nodo 2: responso NO_MOVEMENT.
+0:0:9.724609415 - Nodo 1: trasmettitore acceso. 
+0:0:9.724609415 - Nodo 3: trasmettitore acceso. 
+0:0:9.724609415 - Nodo 4: trasmettitore acceso. 
+0:0:9.724609415 - Nodo 2: trasmettitore acceso. 
+0:0:9.734375020 - Nodo 1: NO_MOVEMENT invio in corso...
+0:0:9.743530240 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:0:9.744140645 - Nodo 2: NO_MOVEMENT invio in corso...
+0:0:9.749542224 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:0:9.753906270 - Nodo 3: NO_MOVEMENT invio in corso...
+0:0:9.763671895 - Nodo 4: NO_MOVEMENT invio in corso...
+0:0:9.763809166 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:0:9.774230915 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:0:9.775390635 - Nodo 0: risultato ECG = 1
+
+0:0:9.775390635 - OUTPUT = NO_MOVEMENT
+
+
+
+0:0:9.775390645 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:9.779373165 - Nodo 4: ricevuto messaggio START. 
+0:0:9.779373165 - Nodo 3: ricevuto messaggio START. 
+0:0:9.779373165 - Nodo 2: ricevuto messaggio START. 
+0:0:9.779373165 - Nodo 1: ricevuto messaggio START. 
+0:0:9.779373185 - Nodo 4: trasmettitore spento. 
+0:0:9.779373185 - Nodo 3: trasmettitore spento. 
+0:0:9.779373185 - Nodo 2: trasmettitore spento. 
+0:0:9.779373185 - Nodo 1: trasmettitore spento. 
+0:0:9.779541011 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 2 
+0:0:19.498046895 - Nodo 3: responso MOVEMENT.
+0:0:19.498046895 - Nodo 1: responso MOVEMENT.
+0:0:19.498046895 - Nodo 4: responso MOVEMENT.
+0:0:19.498046895 - Nodo 2: responso MOVEMENT.
+0:0:19.498046915 - Nodo 3: trasmettitore acceso. 
+0:0:19.498046915 - Nodo 1: trasmettitore acceso. 
+0:0:19.498046915 - Nodo 4: trasmettitore acceso. 
+0:0:19.498046915 - Nodo 2: trasmettitore acceso. 
+0:0:19.507812520 - Nodo 1: MOVEMENT invio in corso...
+0:0:19.512252801 - Nodo 0: ricevuto MOVEMENT da Nodo 1
+0:0:19.517578145 - Nodo 2: MOVEMENT invio in corso...
+0:0:19.521484372 - Nodo 0: ricevuto MOVEMENT da Nodo 2
+0:0:19.527343770 - Nodo 3: MOVEMENT invio in corso...
+0:0:19.535324070 - Nodo 0: ricevuto MOVEMENT da Nodo 3
+0:0:19.537109395 - Nodo 4: MOVEMENT invio in corso...
+0:0:19.539413458 - Nodo 0: ricevuto MOVEMENT da Nodo 4
+0:0:19.541015635 - Nodo 0: risultato ECG = 0
+
+0:0:19.541015635 OUTPUT = MOVEMENT
+
+
+
+0:0:19.541015645 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:19.543090828 - Nodo 4: ricevuto messaggio START. 
+0:0:19.543090828 - Nodo 3: ricevuto messaggio START. 
+0:0:19.543090828 - Nodo 2: ricevuto messaggio START. 
+0:0:19.543090828 - Nodo 1: ricevuto messaggio START. 
+0:0:19.543090848 - Nodo 4: trasmettitore spento. 
+0:0:19.543090848 - Nodo 3: trasmettitore spento. 
+0:0:19.543090848 - Nodo 2: trasmettitore spento. 
+0:0:19.543090848 - Nodo 1: trasmettitore spento. 
+0:0:19.543258673 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 3 
+0:0:29.261718770 - Nodo 1: responso MOVEMENT.
+0:0:29.261718770 - Nodo 3: responso MOVEMENT.
+0:0:29.261718770 - Nodo 2: responso MOVEMENT.
+0:0:29.261718770 - Nodo 4: responso MOVEMENT.
+0:0:29.261718790 - Nodo 1: trasmettitore acceso. 
+0:0:29.261718790 - Nodo 3: trasmettitore acceso. 
+0:0:29.261718790 - Nodo 2: trasmettitore acceso. 
+0:0:29.261718790 - Nodo 4: trasmettitore acceso. 
+0:0:29.271484395 - Nodo 1: MOVEMENT invio in corso...
+0:0:29.274200443 - Nodo 0: ricevuto MOVEMENT da Nodo 1
+0:0:29.281250020 - Nodo 2: MOVEMENT invio in corso...
+0:0:29.283981327 - Nodo 0: ricevuto MOVEMENT da Nodo 2
+0:0:29.291015645 - Nodo 3: MOVEMENT invio in corso...
+0:0:29.300781270 - Nodo 4: MOVEMENT invio in corso...
+0:0:29.301574665 - Nodo 0: ricevuto MOVEMENT da Nodo 3
+0:0:29.307922341 - Nodo 0: ricevuto MOVEMENT da Nodo 4
+0:0:29.309570322 - Nodo 0: risultato ECG = 0
+
+0:0:29.309570322 OUTPUT = MOVEMENT
+
+
+
+0:0:29.309570332 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:29.315567001 - Nodo 4: ricevuto messaggio START. 
+0:0:29.315567001 - Nodo 3: ricevuto messaggio START. 
+0:0:29.315567001 - Nodo 2: ricevuto messaggio START. 
+0:0:29.315567001 - Nodo 1: ricevuto messaggio START. 
+0:0:29.315567021 - Nodo 4: trasmettitore spento. 
+0:0:29.315567021 - Nodo 3: trasmettitore spento. 
+0:0:29.315567021 - Nodo 2: trasmettitore spento. 
+0:0:29.315567021 - Nodo 1: trasmettitore spento. 
+0:0:29.315734847 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 4 
+0:0:39.034179707 - Nodo 2: responso MOVEMENT.
+0:0:39.034179707 - Nodo 3: responso MOVEMENT.
+0:0:39.034179707 - Nodo 4: responso MOVEMENT.
+0:0:39.034179707 - Nodo 1: responso MOVEMENT.
+0:0:39.034179727 - Nodo 2: trasmettitore acceso. 
+0:0:39.034179727 - Nodo 3: trasmettitore acceso. 
+0:0:39.034179727 - Nodo 4: trasmettitore acceso. 
+0:0:39.034179727 - Nodo 1: trasmettitore acceso. 
+0:0:39.043945332 - Nodo 1: MOVEMENT invio in corso...
+0:0:39.047195435 - Nodo 0: ricevuto MOVEMENT da Nodo 1
+0:0:39.053710957 - Nodo 2: MOVEMENT invio in corso...
+0:0:39.059387193 - Nodo 0: ricevuto MOVEMENT da Nodo 2
+0:0:39.063476582 - Nodo 3: MOVEMENT invio in corso...
+0:0:39.072448698 - Nodo 0: ricevuto MOVEMENT da Nodo 3
+0:0:39.073242207 - Nodo 4: MOVEMENT invio in corso...
+0:0:39.081878631 - Nodo 0: ricevuto MOVEMENT da Nodo 4
+0:0:39.083007822 - Nodo 0: risultato ECG = 1
+
+0:0:39.083007822 OUTPUT = MOVEMENT
+
+
+
+0:0:39.083007832 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:39.090118386 - Nodo 4: ricevuto messaggio START. 
+0:0:39.090118386 - Nodo 3: ricevuto messaggio START. 
+0:0:39.090118386 - Nodo 2: ricevuto messaggio START. 
+0:0:39.090118386 - Nodo 1: ricevuto messaggio START. 
+0:0:39.090118406 - Nodo 4: trasmettitore spento. 
+0:0:39.090118406 - Nodo 3: trasmettitore spento. 
+0:0:39.090118406 - Nodo 2: trasmettitore spento. 
+0:0:39.090118406 - Nodo 1: trasmettitore spento. 
+0:0:39.090286232 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 5 
+0:0:48.808593770 - Nodo 2: responso MOVEMENT.
+0:0:48.808593770 - Nodo 4: responso MOVEMENT.
+0:0:48.808593770 - Nodo 1: responso MOVEMENT.
+0:0:48.808593770 - Nodo 3: responso CRISIS.
+0:0:48.808593790 - Nodo 2: trasmettitore acceso. 
+0:0:48.808593790 - Nodo 4: trasmettitore acceso. 
+0:0:48.808593790 - Nodo 1: trasmettitore acceso. 
+0:0:48.808593790 - Nodo 3: trasmettitore acceso. 
+0:0:48.818359395 - Nodo 1: MOVEMENT invio in corso...
+0:0:48.827514615 - Nodo 0: ricevuto MOVEMENT da Nodo 1
+0:0:48.828125020 - Nodo 2: MOVEMENT invio in corso...
+0:0:48.831100466 - Nodo 0: ricevuto MOVEMENT da Nodo 2
+0:0:48.837890645 - Nodo 3: CRISIS invio in corso...
+0:0:48.845672582 - Nodo 0: ricevuto CRISIS da Nodo 3
+0:0:48.847656270 - Nodo 4: MOVEMENT invio in corso...
+0:0:48.857177698 - Nodo 0: ricevuto MOVEMENT da Nodo 4
+0:0:48.858398447 - Nodo 0: risultato ECG = 1
+
+0:0:48.858398447 OUTPUT = MOVEMENT
+
+
+
+0:0:48.858398457 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:48.859558118 - Nodo 4: ricevuto messaggio START. 
+0:0:48.859558118 - Nodo 3: ricevuto messaggio START. 
+0:0:48.859558118 - Nodo 2: ricevuto messaggio START. 
+0:0:48.859558118 - Nodo 1: ricevuto messaggio START. 
+0:0:48.859558138 - Nodo 4: trasmettitore spento. 
+0:0:48.859558138 - Nodo 3: trasmettitore spento. 
+0:0:48.859558138 - Nodo 2: trasmettitore spento. 
+0:0:48.859558138 - Nodo 1: trasmettitore spento. 
+0:0:48.859725964 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 6 
+0:0:58.578125020 - Nodo 3: responso MOVEMENT.
+0:0:58.578125020 - Nodo 2: responso MOVEMENT.
+0:0:58.578125020 - Nodo 1: responso MOVEMENT.
+0:0:58.578125020 - Nodo 4: responso MOVEMENT.
+0:0:58.578125040 - Nodo 3: trasmettitore acceso. 
+0:0:58.578125040 - Nodo 2: trasmettitore acceso. 
+0:0:58.578125040 - Nodo 1: trasmettitore acceso. 
+0:0:58.578125040 - Nodo 4: trasmettitore acceso. 
+0:0:58.587890645 - Nodo 1: MOVEMENT invio in corso...
+0:0:58.595123268 - Nodo 0: ricevuto MOVEMENT da Nodo 1
+0:0:58.597656270 - Nodo 2: MOVEMENT invio in corso...
+0:0:58.606323211 - Nodo 0: ricevuto MOVEMENT da Nodo 2
+0:0:58.607421895 - Nodo 3: MOVEMENT invio in corso...
+0:0:58.617187520 - Nodo 4: MOVEMENT invio in corso...
+0:0:58.617858845 - Nodo 0: ricevuto MOVEMENT da Nodo 3
+0:0:58.622299184 - Nodo 0: ricevuto MOVEMENT da Nodo 4
+0:0:58.624023447 - Nodo 0: risultato ECG = 0
+
+0:0:58.624023447 OUTPUT = MOVEMENT
+
+
+
+0:0:58.624023457 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:58.628204341 - Nodo 4: ricevuto messaggio START. 
+0:0:58.628204341 - Nodo 3: ricevuto messaggio START. 
+0:0:58.628204341 - Nodo 2: ricevuto messaggio START. 
+0:0:58.628204341 - Nodo 1: ricevuto messaggio START. 
+0:0:58.628204361 - Nodo 4: trasmettitore spento. 
+0:0:58.628204361 - Nodo 3: trasmettitore spento. 
+0:0:58.628204361 - Nodo 2: trasmettitore spento. 
+0:0:58.628204361 - Nodo 1: trasmettitore spento. 
+0:0:58.628372187 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 7 
+0:1:8.346679707 - Nodo 2: responso MOVEMENT.
+0:1:8.346679707 - Nodo 1: responso MOVEMENT.
+0:1:8.346679707 - Nodo 3: responso MOVEMENT.
+0:1:8.346679707 - Nodo 4: responso MOVEMENT.
+0:1:8.346679727 - Nodo 2: trasmettitore acceso. 
+0:1:8.346679727 - Nodo 1: trasmettitore acceso. 
+0:1:8.346679727 - Nodo 3: trasmettitore acceso. 
+0:1:8.346679727 - Nodo 4: trasmettitore acceso. 
+0:1:8.356445332 - Nodo 1: MOVEMENT invio in corso...
+0:1:8.363388041 - Nodo 0: ricevuto MOVEMENT da Nodo 1
+0:1:8.366210957 - Nodo 2: MOVEMENT invio in corso...
+0:1:8.372131333 - Nodo 0: ricevuto MOVEMENT da Nodo 2
+0:1:8.375976582 - Nodo 3: MOVEMENT invio in corso...
+0:1:8.381362903 - Nodo 0: ricevuto MOVEMENT da Nodo 3
+0:1:8.385742207 - Nodo 4: MOVEMENT invio in corso...
+0:1:8.395050014 - Nodo 0: ricevuto MOVEMENT da Nodo 4
+0:1:8.396484385 - Nodo 0: risultato ECG = 1
+
+0:1:8.396484385 OUTPUT = MOVEMENT
+
+
+
+0:1:8.396484395 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:1:8.405990565 - Nodo 4: ricevuto messaggio START. 
+0:1:8.405990565 - Nodo 3: ricevuto messaggio START. 
+0:1:8.405990565 - Nodo 2: ricevuto messaggio START. 
+0:1:8.405990565 - Nodo 1: ricevuto messaggio START. 
+0:1:8.405990585 - Nodo 4: trasmettitore spento. 
+0:1:8.405990585 - Nodo 3: trasmettitore spento. 
+0:1:8.405990585 - Nodo 2: trasmettitore spento. 
+0:1:8.405990585 - Nodo 1: trasmettitore spento. 
+0:1:8.406158410 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 8 
+0:1:18.124023457 - Nodo 2: responso NO_MOVEMENT.
+0:1:18.124023457 - Nodo 4: responso NO_MOVEMENT.
+0:1:18.124023457 - Nodo 3: responso NO_MOVEMENT.
+0:1:18.124023457 - Nodo 1: responso NO_MOVEMENT.
+0:1:18.124023477 - Nodo 2: trasmettitore acceso. 
+0:1:18.124023477 - Nodo 4: trasmettitore acceso. 
+0:1:18.124023477 - Nodo 3: trasmettitore acceso. 
+0:1:18.124023477 - Nodo 1: trasmettitore acceso. 
+0:1:18.133789082 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:18.138992299 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:18.143554707 - Nodo 2: NO_MOVEMENT invio in corso...
+0:1:18.150070172 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:1:18.153320332 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:18.156417848 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:1:18.163085957 - Nodo 4: NO_MOVEMENT invio in corso...
+0:1:18.168258656 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:1:18.169921885 - Nodo 0: risultato ECG = 0
+
+0:1:18.169921885 - OUTPUT = NO_MOVEMENT
+
+
+
+0:1:18.169921895 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:1:18.179611169 - Nodo 4: ricevuto messaggio START. 
+0:1:18.179611169 - Nodo 3: ricevuto messaggio START. 
+0:1:18.179611169 - Nodo 2: ricevuto messaggio START. 
+0:1:18.179611169 - Nodo 1: ricevuto messaggio START. 
+0:1:18.179611189 - Nodo 4: trasmettitore spento. 
+0:1:18.179611189 - Nodo 3: trasmettitore spento. 
+0:1:18.179611189 - Nodo 2: trasmettitore spento. 
+0:1:18.179611189 - Nodo 1: trasmettitore spento. 
+0:1:18.179779015 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 9 
+0:1:27.897460957 - Nodo 2: responso NO_MOVEMENT.
+0:1:27.897460957 - Nodo 1: responso NO_MOVEMENT.
+0:1:27.897460957 - Nodo 3: responso NO_MOVEMENT.
+0:1:27.897460957 - Nodo 4: responso NO_MOVEMENT.
+0:1:27.897460977 - Nodo 2: trasmettitore acceso. 
+0:1:27.897460977 - Nodo 1: trasmettitore acceso. 
+0:1:27.897460977 - Nodo 3: trasmettitore acceso. 
+0:1:27.897460977 - Nodo 4: trasmettitore acceso. 
+0:1:27.907226582 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:27.912094107 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:27.916992207 - Nodo 2: NO_MOVEMENT invio in corso...
+0:1:27.922271717 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:1:27.926757832 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:27.928283702 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:1:27.936523457 - Nodo 4: NO_MOVEMENT invio in corso...
+0:1:27.939956665 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:1:27.941406260 - Nodo 0: risultato ECG = 0
+
+0:1:27.941406260 - OUTPUT = NO_MOVEMENT
+
+
+
+0:1:27.941406270 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:1:27.950271574 - Nodo 1: ricevuto messaggio START. 
+0:1:27.950271574 - Nodo 4: ricevuto messaggio START. 
+0:1:27.950271574 - Nodo 3: ricevuto messaggio START. 
+0:1:27.950271574 - Nodo 2: ricevuto messaggio START. 
+0:1:27.950271594 - Nodo 1: trasmettitore spento. 
+0:1:27.950271594 - Nodo 4: trasmettitore spento. 
+0:1:27.950271594 - Nodo 3: trasmettitore spento. 
+0:1:27.950271594 - Nodo 2: trasmettitore spento. 
+0:1:27.950439420 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 10 
+0:1:37.668945332 - Nodo 4: responso NO_MOVEMENT.
+0:1:37.668945332 - Nodo 1: responso NO_MOVEMENT.
+0:1:37.668945332 - Nodo 3: responso NO_MOVEMENT.
+0:1:37.668945332 - Nodo 2: responso NO_MOVEMENT.
+0:1:37.668945352 - Nodo 4: trasmettitore acceso. 
+0:1:37.668945352 - Nodo 1: trasmettitore acceso. 
+0:1:37.668945352 - Nodo 3: trasmettitore acceso. 
+0:1:37.668945352 - Nodo 2: trasmettitore acceso. 
+0:1:37.678710957 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:37.688384973 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:37.688476582 - Nodo 2: NO_MOVEMENT invio in corso...
+0:1:37.695144634 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:1:37.698242207 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:37.705749487 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:1:37.708007832 - Nodo 4: NO_MOVEMENT invio in corso...
+0:1:37.716186495 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:1:37.717773447 - Nodo 0: risultato ECG = 0
+
+0:1:37.717773447 - OUTPUT = NO_MOVEMENT
+
+
+
+0:1:37.717773457 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:1:37.725662205 - Nodo 4: ricevuto messaggio START. 
+0:1:37.725662205 - Nodo 3: ricevuto messaggio START. 
+0:1:37.725662205 - Nodo 2: ricevuto messaggio START. 
+0:1:37.725662205 - Nodo 1: ricevuto messaggio START. 
+0:1:37.725662225 - Nodo 4: trasmettitore spento. 
+0:1:37.725662225 - Nodo 3: trasmettitore spento. 
+0:1:37.725662225 - Nodo 2: trasmettitore spento. 
+0:1:37.725662225 - Nodo 1: trasmettitore spento. 
+0:1:37.725830051 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 11 
+0:1:47.444335957 - Nodo 3: responso NO_MOVEMENT.
+0:1:47.444335957 - Nodo 4: responso NO_MOVEMENT.
+0:1:47.444335957 - Nodo 1: responso NO_MOVEMENT.
+0:1:47.444335957 - Nodo 2: responso NO_MOVEMENT.
+0:1:47.444335977 - Nodo 3: trasmettitore acceso. 
+0:1:47.444335977 - Nodo 4: trasmettitore acceso. 
+0:1:47.444335977 - Nodo 1: trasmettitore acceso. 
+0:1:47.444335977 - Nodo 2: trasmettitore acceso. 
+0:1:47.454101582 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:47.460311873 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:47.463867207 - Nodo 2: NO_MOVEMENT invio in corso...
+0:1:47.470443707 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:1:47.473632832 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:47.477401731 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:1:47.483398457 - Nodo 4: NO_MOVEMENT invio in corso...
+0:1:47.486679078 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:1:47.488281260 - Nodo 0: risultato ECG = 0
+
+0:1:47.488281260 - OUTPUT = NO_MOVEMENT
+
+
+
+0:1:47.488281270 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:1:47.492416377 - Nodo 4: ricevuto messaggio START. 
+0:1:47.492416377 - Nodo 3: ricevuto messaggio START. 
+0:1:47.492416377 - Nodo 2: ricevuto messaggio START. 
+0:1:47.492416377 - Nodo 1: ricevuto messaggio START. 
+0:1:47.492416397 - Nodo 4: trasmettitore spento. 
+0:1:47.492416397 - Nodo 3: trasmettitore spento. 
+0:1:47.492416397 - Nodo 2: trasmettitore spento. 
+0:1:47.492416397 - Nodo 1: trasmettitore spento. 
+0:1:47.492584223 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 12 
+0:1:57.210937520 - Nodo 4: responso NO_MOVEMENT.
+0:1:57.210937520 - Nodo 3: responso NO_MOVEMENT.
+0:1:57.210937520 - Nodo 1: responso NO_MOVEMENT.
+0:1:57.210937520 - Nodo 2: responso NO_MOVEMENT.
+0:1:57.210937540 - Nodo 4: trasmettitore acceso. 
+0:1:57.210937540 - Nodo 3: trasmettitore acceso. 
+0:1:57.210937540 - Nodo 1: trasmettitore acceso. 
+0:1:57.210937540 - Nodo 2: trasmettitore acceso. 
+0:1:57.220703145 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:57.224838252 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:57.230468770 - Nodo 2: NO_MOVEMENT invio in corso...
+0:1:57.234024047 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:1:57.240234395 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:57.243988035 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:1:57.250000020 - Nodo 4: NO_MOVEMENT invio in corso...
+0:1:57.255691515 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:1:57.256835947 - Nodo 0: risultato ECG = 0
+
+0:1:57.256835947 - OUTPUT = NO_MOVEMENT
+
+
+
+0:1:57.256835957 - FINE
+
+
+
+Simulazione finita!
+
+---------------------------------------------------------------------------------------------> Scenario 3
+
+********************************************
+*                                          *
+*             TOSSIM Script                *
+*                                          *
+********************************************
+Initializing mac....
+Initializing radio channels....
+    using topology file: topology.txt
+    using noise file: meyer-heavy.txt
+Initializing simulator....
+Activate debug message on channel main
+Creo nodo 0...
+Creo nodo 1...
+Creo nodo 2...
+Creo nodo 3...
+Creo nodo 4...
+Creating radio channels...
+>>>Creando canale radio dal nodo  0  al nodo  1  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  0  al nodo  2  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  0  al nodo  3  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  0  al nodo  4  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  1  al nodo  0  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  2  al nodo  0  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  3  al nodo  0  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  4  al nodo  0  con gain  -30.0  dBm
+Initializing Closest Pattern Matching (CPM)...
+Reading noise model data file: meyer-heavy.txt
+Loading:##Done!
+>>>Creating noise model for node: 0
+>>>Creating noise model for node: 1
+>>>Creating noise model for node: 2
+>>>Creating noise model for node: 3
+>>>Creating noise model for node: 4
+Inizio simulazione con TOSSIM! 
+
+
+
+0:0:0.000000010 - Nodo 0: trasmettitore acceso. 
+0:0:0.000000010 - Nodo 1: trasmettitore acceso. 
+0:0:0.000000010 - Nodo 3: trasmettitore acceso. 
+0:0:0.000000010 - Nodo 2: trasmettitore acceso. 
+0:0:0.000000010 - Nodo 4: trasmettitore acceso. 
+
+
+
+0:0:0.001953145 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:0.004806521 - Nodo 4: ricevuto messaggio START. 
+0:0:0.004806521 - Nodo 1: ricevuto messaggio START. 
+0:0:0.004806521 - Nodo 3: ricevuto messaggio START. 
+0:0:0.004806521 - Nodo 2: ricevuto messaggio START. 
+0:0:0.004806541 - Nodo 4: trasmettitore spento. 
+0:0:0.004806541 - Nodo 1: trasmettitore spento. 
+0:0:0.004806541 - Nodo 3: trasmettitore spento. 
+0:0:0.004806541 - Nodo 2: trasmettitore spento. 
+0:0:0.004974367 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 1 
+0:0:9.722656270 - Nodo 3: responso NO_MOVEMENT.
+0:0:9.722656270 - Nodo 1: responso NO_MOVEMENT.
+0:0:9.722656270 - Nodo 2: responso NO_MOVEMENT.
+0:0:9.722656270 - Nodo 4: responso NO_MOVEMENT.
+0:0:9.722656290 - Nodo 3: trasmettitore acceso. 
+0:0:9.722656290 - Nodo 1: trasmettitore acceso. 
+0:0:9.722656290 - Nodo 2: trasmettitore acceso. 
+0:0:9.722656290 - Nodo 4: trasmettitore acceso. 
+0:0:9.732421895 - Nodo 1: NO_MOVEMENT invio in corso...
+0:0:9.739547707 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:0:9.742187520 - Nodo 2: NO_MOVEMENT invio in corso...
+0:0:9.744659429 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:0:9.751953145 - Nodo 3: NO_MOVEMENT invio in corso...
+0:0:9.760208101 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:0:9.761718770 - Nodo 4: NO_MOVEMENT invio in corso...
+0:0:9.764785768 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:0:9.766601572 - Nodo 0: risultato ECG = 0
+
+0:0:9.766601572 - OUTPUT = NO_MOVEMENT
+
+
+
+0:0:9.766601582 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:9.768981939 - Nodo 4: ricevuto messaggio START. 
+0:0:9.768981939 - Nodo 3: ricevuto messaggio START. 
+0:0:9.768981939 - Nodo 2: ricevuto messaggio START. 
+0:0:9.768981939 - Nodo 1: ricevuto messaggio START. 
+0:0:9.768981959 - Nodo 4: trasmettitore spento. 
+0:0:9.768981959 - Nodo 3: trasmettitore spento. 
+0:0:9.768981959 - Nodo 2: trasmettitore spento. 
+0:0:9.768981959 - Nodo 1: trasmettitore spento. 
+0:0:9.769149785 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 2 
+0:0:19.487304707 - Nodo 2: responso CRISIS.
+0:0:19.487304707 - Nodo 1: responso CRISIS.
+0:0:19.487304707 - Nodo 3: responso CRISIS.
+0:0:19.487304707 - Nodo 4: responso CRISIS.
+0:0:19.487304727 - Nodo 2: trasmettitore acceso. 
+0:0:19.487304727 - Nodo 1: trasmettitore acceso. 
+0:0:19.487304727 - Nodo 3: trasmettitore acceso. 
+0:0:19.487304727 - Nodo 4: trasmettitore acceso. 
+0:0:19.497070332 - Nodo 1: CRISIS invio in corso...
+0:0:19.499710087 - Nodo 0: ricevuto CRISIS da Nodo 1
+0:0:19.506835957 - Nodo 2: CRISIS invio in corso...
+0:0:19.508972175 - Nodo 0: ricevuto CRISIS da Nodo 2
+0:0:19.516601582 - Nodo 3: CRISIS invio in corso...
+0:0:19.521881092 - Nodo 0: ricevuto CRISIS da Nodo 3
+0:0:19.526367207 - Nodo 4: CRISIS invio in corso...
+0:0:19.532669050 - Nodo 0: ricevuto CRISIS da Nodo 4
+0:0:19.534179697 - Nodo 0: risultato ECG = 1
+
+0:0:19.534179697 OUTPUT = CRISIS !!!!!!!!!!!!!!!!!!
+DEBUG (0): PACCHETTO MANDATO
+DEBUG (0): BOOOOOOOOOOOOOOOOOOOOH
+
+
+
+0:0:19.534179717 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:19.538406377 - Nodo 4: ricevuto messaggio START. 
+0:0:19.538406377 - Nodo 3: ricevuto messaggio START. 
+0:0:19.538406377 - Nodo 2: ricevuto messaggio START. 
+0:0:19.538406377 - Nodo 1: ricevuto messaggio START. 
+0:0:19.538406397 - Nodo 4: trasmettitore spento. 
+0:0:19.538406397 - Nodo 3: trasmettitore spento. 
+0:0:19.538406397 - Nodo 2: trasmettitore spento. 
+0:0:19.538406397 - Nodo 1: trasmettitore spento. 
+0:0:19.538574223 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 3 
+0:0:29.256835957 - Nodo 3: responso MOVEMENT.
+0:0:29.256835957 - Nodo 1: responso CRISIS.
+0:0:29.256835957 - Nodo 4: responso MOVEMENT.
+0:0:29.256835957 - Nodo 2: responso MOVEMENT.
+0:0:29.256835977 - Nodo 3: trasmettitore acceso. 
+0:0:29.256835977 - Nodo 1: trasmettitore acceso. 
+0:0:29.256835977 - Nodo 4: trasmettitore acceso. 
+0:0:29.256835977 - Nodo 2: trasmettitore acceso. 
+0:0:29.266601582 - Nodo 1: CRISIS invio in corso...
+0:0:29.271118157 - Nodo 0: ricevuto CRISIS da Nodo 1
+0:0:29.276367207 - Nodo 2: MOVEMENT invio in corso...
+0:0:29.278030405 - Nodo 0: ricevuto MOVEMENT da Nodo 2
+0:0:29.286132832 - Nodo 3: MOVEMENT invio in corso...
+0:0:29.290542596 - Nodo 0: ricevuto MOVEMENT da Nodo 3
+0:0:29.295898457 - Nodo 4: MOVEMENT invio in corso...
+0:0:29.304153414 - Nodo 0: ricevuto MOVEMENT da Nodo 4
+0:0:29.305664072 - Nodo 0: risultato ECG = 1
+
+0:0:29.305664072 OUTPUT = MOVEMENT
+
+
+
+0:0:29.305664082 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:29.312820412 - Nodo 4: ricevuto messaggio START. 
+0:0:29.312820412 - Nodo 3: ricevuto messaggio START. 
+0:0:29.312820412 - Nodo 2: ricevuto messaggio START. 
+0:0:29.312820412 - Nodo 1: ricevuto messaggio START. 
+0:0:29.312820432 - Nodo 4: trasmettitore spento. 
+0:0:29.312820432 - Nodo 3: trasmettitore spento. 
+0:0:29.312820432 - Nodo 2: trasmettitore spento. 
+0:0:29.312820432 - Nodo 1: trasmettitore spento. 
+0:0:29.312988258 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 4 
+0:0:39.031250020 - Nodo 4: responso NO_MOVEMENT.
+0:0:39.031250020 - Nodo 2: responso NO_MOVEMENT.
+0:0:39.031250020 - Nodo 3: responso NO_MOVEMENT.
+0:0:39.031250020 - Nodo 1: responso NO_MOVEMENT.
+0:0:39.031250040 - Nodo 4: trasmettitore acceso. 
+0:0:39.031250040 - Nodo 2: trasmettitore acceso. 
+0:0:39.031250040 - Nodo 3: trasmettitore acceso. 
+0:0:39.031250040 - Nodo 1: trasmettitore acceso. 
+0:0:39.041015645 - Nodo 1: NO_MOVEMENT invio in corso...
+0:0:39.045806876 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:0:39.050781270 - Nodo 2: NO_MOVEMENT invio in corso...
+0:0:39.055221551 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:0:39.060546895 - Nodo 3: NO_MOVEMENT invio in corso...
+0:0:39.064285276 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:0:39.070312520 - Nodo 4: NO_MOVEMENT invio in corso...
+0:0:39.075942980 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:0:39.077148447 - Nodo 0: risultato ECG = 1
+
+0:0:39.077148447 - OUTPUT = NO_MOVEMENT
+
+
+
+0:0:39.077148457 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:39.080795286 - Nodo 4: ricevuto messaggio START. 
+0:0:39.080795286 - Nodo 3: ricevuto messaggio START. 
+0:0:39.080795286 - Nodo 2: ricevuto messaggio START. 
+0:0:39.080795286 - Nodo 1: ricevuto messaggio START. 
+0:0:39.080795306 - Nodo 4: trasmettitore spento. 
+0:0:39.080795306 - Nodo 3: trasmettitore spento. 
+0:0:39.080795306 - Nodo 2: trasmettitore spento. 
+0:0:39.080795306 - Nodo 1: trasmettitore spento. 
+0:0:39.080963132 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 5 
+0:0:48.798828145 - Nodo 4: responso NO_MOVEMENT.
+0:0:48.798828145 - Nodo 3: responso NO_MOVEMENT.
+0:0:48.798828145 - Nodo 2: responso NO_MOVEMENT.
+0:0:48.798828145 - Nodo 1: responso NO_MOVEMENT.
+0:0:48.798828165 - Nodo 4: trasmettitore acceso. 
+0:0:48.798828165 - Nodo 3: trasmettitore acceso. 
+0:0:48.798828165 - Nodo 2: trasmettitore acceso. 
+0:0:48.798828165 - Nodo 1: trasmettitore acceso. 
+0:0:48.808593770 - Nodo 1: NO_MOVEMENT invio in corso...
+0:0:48.815658548 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:0:48.818359395 - Nodo 2: NO_MOVEMENT invio in corso...
+0:0:48.828125020 - Nodo 3: NO_MOVEMENT invio in corso...
+0:0:48.828247032 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:0:48.830062874 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:0:48.837890645 - Nodo 4: NO_MOVEMENT invio in corso...
+0:0:48.848205526 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:0:48.849609385 - Nodo 0: risultato ECG = 0
+
+0:0:48.849609385 - OUTPUT = NO_MOVEMENT
+
+
+
+0:0:48.849609395 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:48.854034418 - Nodo 4: ricevuto messaggio START. 
+0:0:48.854034418 - Nodo 3: ricevuto messaggio START. 
+0:0:48.854034418 - Nodo 2: ricevuto messaggio START. 
+0:0:48.854034418 - Nodo 1: ricevuto messaggio START. 
+0:0:48.854034438 - Nodo 4: trasmettitore spento. 
+0:0:48.854034438 - Nodo 3: trasmettitore spento. 
+0:0:48.854034438 - Nodo 2: trasmettitore spento. 
+0:0:48.854034438 - Nodo 1: trasmettitore spento. 
+0:0:48.854202263 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 6 
+0:0:58.572265645 - Nodo 1: responso NO_MOVEMENT.
+0:0:58.572265645 - Nodo 3: responso NO_MOVEMENT.
+0:0:58.572265645 - Nodo 4: responso NO_MOVEMENT.
+0:0:58.572265645 - Nodo 2: responso NO_MOVEMENT.
+0:0:58.572265665 - Nodo 1: trasmettitore acceso. 
+0:0:58.572265665 - Nodo 3: trasmettitore acceso. 
+0:0:58.572265665 - Nodo 4: trasmettitore acceso. 
+0:0:58.572265665 - Nodo 2: trasmettitore acceso. 
+0:0:58.582031270 - Nodo 1: NO_MOVEMENT invio in corso...
+0:0:58.589965794 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:0:58.591796895 - Nodo 2: NO_MOVEMENT invio in corso...
+0:0:58.600341767 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:0:58.601562520 - Nodo 3: NO_MOVEMENT invio in corso...
+0:0:58.609390233 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:0:58.611328145 - Nodo 4: NO_MOVEMENT invio in corso...
+0:0:58.615997307 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:0:58.617187510 - Nodo 0: risultato ECG = 0
+
+0:0:58.617187510 - OUTPUT = NO_MOVEMENT
+
+
+
+0:0:58.617187520 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:58.625961272 - Nodo 4: ricevuto messaggio START. 
+0:0:58.625961272 - Nodo 3: ricevuto messaggio START. 
+0:0:58.625961272 - Nodo 2: ricevuto messaggio START. 
+0:0:58.625961272 - Nodo 1: ricevuto messaggio START. 
+0:0:58.625961292 - Nodo 4: trasmettitore spento. 
+0:0:58.625961292 - Nodo 3: trasmettitore spento. 
+0:0:58.625961292 - Nodo 2: trasmettitore spento. 
+0:0:58.625961292 - Nodo 1: trasmettitore spento. 
+0:0:58.626129118 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 7 
+0:1:8.343750020 - Nodo 1: responso NO_MOVEMENT.
+0:1:8.343750020 - Nodo 4: responso NO_MOVEMENT.
+0:1:8.343750020 - Nodo 2: responso NO_MOVEMENT.
+0:1:8.343750020 - Nodo 3: responso NO_MOVEMENT.
+0:1:8.343750040 - Nodo 1: trasmettitore acceso. 
+0:1:8.343750040 - Nodo 4: trasmettitore acceso. 
+0:1:8.343750040 - Nodo 2: trasmettitore acceso. 
+0:1:8.343750040 - Nodo 3: trasmettitore acceso. 
+0:1:8.353515645 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:8.361022925 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:8.363281270 - Nodo 2: NO_MOVEMENT invio in corso...
+0:1:8.372177092 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:1:8.373046895 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:8.381057712 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:1:8.382812520 - Nodo 4: NO_MOVEMENT invio in corso...
+0:1:8.390518163 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:1:8.391601572 - Nodo 0: risultato ECG = 0
+
+0:1:8.391601572 - OUTPUT = NO_MOVEMENT
+
+
+
+0:1:8.391601582 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:1:8.397750838 - Nodo 4: ricevuto messaggio START. 
+0:1:8.397750838 - Nodo 3: ricevuto messaggio START. 
+0:1:8.397750838 - Nodo 2: ricevuto messaggio START. 
+0:1:8.397750838 - Nodo 1: ricevuto messaggio START. 
+0:1:8.397750858 - Nodo 4: trasmettitore spento. 
+0:1:8.397750858 - Nodo 3: trasmettitore spento. 
+0:1:8.397750858 - Nodo 2: trasmettitore spento. 
+0:1:8.397750858 - Nodo 1: trasmettitore spento. 
+0:1:8.397918684 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 8 
+0:1:18.116210957 - Nodo 2: responso NO_MOVEMENT.
+0:1:18.116210957 - Nodo 1: responso NO_MOVEMENT.
+0:1:18.116210957 - Nodo 4: responso NO_MOVEMENT.
+0:1:18.116210957 - Nodo 3: responso NO_MOVEMENT.
+0:1:18.116210977 - Nodo 2: trasmettitore acceso. 
+0:1:18.116210977 - Nodo 1: trasmettitore acceso. 
+0:1:18.116210977 - Nodo 4: trasmettitore acceso. 
+0:1:18.116210977 - Nodo 3: trasmettitore acceso. 
+0:1:18.125976582 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:18.135055509 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:18.135742207 - Nodo 2: NO_MOVEMENT invio in corso...
+0:1:18.142410259 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:1:18.145507832 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:18.150390616 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:1:18.155273457 - Nodo 4: NO_MOVEMENT invio in corso...
+0:1:18.164062468 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:1:18.165039072 - Nodo 0: risultato ECG = 1
+
+0:1:18.165039072 - OUTPUT = NO_MOVEMENT
+
+
+
+0:1:18.165039082 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:1:18.170669542 - Nodo 4: ricevuto messaggio START. 
+0:1:18.170669542 - Nodo 3: ricevuto messaggio START. 
+0:1:18.170669542 - Nodo 2: ricevuto messaggio START. 
+0:1:18.170669542 - Nodo 1: ricevuto messaggio START. 
+0:1:18.170669562 - Nodo 4: trasmettitore spento. 
+0:1:18.170669562 - Nodo 3: trasmettitore spento. 
+0:1:18.170669562 - Nodo 2: trasmettitore spento. 
+0:1:18.170669562 - Nodo 1: trasmettitore spento. 
+0:1:18.170837388 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 9 
+0:1:27.888671895 - Nodo 4: responso NO_MOVEMENT.
+0:1:27.888671895 - Nodo 1: responso NO_MOVEMENT.
+0:1:27.888671895 - Nodo 3: responso NO_MOVEMENT.
+0:1:27.888671895 - Nodo 2: responso NO_MOVEMENT.
+0:1:27.888671915 - Nodo 4: trasmettitore acceso. 
+0:1:27.888671915 - Nodo 1: trasmettitore acceso. 
+0:1:27.888671915 - Nodo 3: trasmettitore acceso. 
+0:1:27.888671915 - Nodo 2: trasmettitore acceso. 
+0:1:27.898437520 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:27.906188939 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:27.908203145 - Nodo 2: NO_MOVEMENT invio in corso...
+0:1:27.916915862 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:1:27.917968770 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:27.927047696 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:1:27.927734395 - Nodo 4: NO_MOVEMENT invio in corso...
+0:1:27.934173566 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:1:27.935546885 - Nodo 0: risultato ECG = 0
+
+0:1:27.935546885 - OUTPUT = NO_MOVEMENT
+
+
+
+0:1:27.935546895 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:1:27.942581155 - Nodo 4: ricevuto messaggio START. 
+0:1:27.942581155 - Nodo 3: ricevuto messaggio START. 
+0:1:27.942581155 - Nodo 2: ricevuto messaggio START. 
+0:1:27.942581155 - Nodo 1: ricevuto messaggio START. 
+0:1:27.942581175 - Nodo 4: trasmettitore spento. 
+0:1:27.942581175 - Nodo 3: trasmettitore spento. 
+0:1:27.942581175 - Nodo 2: trasmettitore spento. 
+0:1:27.942581175 - Nodo 1: trasmettitore spento. 
+0:1:27.942749001 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 10 
+0:1:37.661132832 - Nodo 4: responso NO_MOVEMENT.
+0:1:37.661132832 - Nodo 2: responso NO_MOVEMENT.
+0:1:37.661132832 - Nodo 3: responso NO_MOVEMENT.
+0:1:37.661132832 - Nodo 1: responso NO_MOVEMENT.
+0:1:37.661132852 - Nodo 4: trasmettitore acceso. 
+0:1:37.661132852 - Nodo 2: trasmettitore acceso. 
+0:1:37.661132852 - Nodo 3: trasmettitore acceso. 
+0:1:37.661132852 - Nodo 1: trasmettitore acceso. 
+0:1:37.670898457 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:37.673385625 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:37.680664082 - Nodo 2: NO_MOVEMENT invio in corso...
+0:1:37.685623160 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:1:37.690429707 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:37.700195332 - Nodo 4: NO_MOVEMENT invio in corso...
+0:1:37.700302086 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:1:37.708496065 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:1:37.709960947 - Nodo 0: risultato ECG = 0
+
+0:1:37.709960947 - OUTPUT = NO_MOVEMENT
+
+
+
+0:1:37.709960957 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:1:37.711395275 - Nodo 4: ricevuto messaggio START. 
+0:1:37.711395275 - Nodo 3: ricevuto messaggio START. 
+0:1:37.711395275 - Nodo 2: ricevuto messaggio START. 
+0:1:37.711395275 - Nodo 1: ricevuto messaggio START. 
+0:1:37.711395295 - Nodo 4: trasmettitore spento. 
+0:1:37.711395295 - Nodo 3: trasmettitore spento. 
+0:1:37.711395295 - Nodo 2: trasmettitore spento. 
+0:1:37.711395295 - Nodo 1: trasmettitore spento. 
+0:1:37.711563121 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 11 
+0:1:47.429687520 - Nodo 3: responso NO_MOVEMENT.
+0:1:47.429687520 - Nodo 4: responso NO_MOVEMENT.
+0:1:47.429687520 - Nodo 1: responso NO_MOVEMENT.
+0:1:47.429687520 - Nodo 2: responso NO_MOVEMENT.
+0:1:47.429687540 - Nodo 3: trasmettitore acceso. 
+0:1:47.429687540 - Nodo 4: trasmettitore acceso. 
+0:1:47.429687540 - Nodo 1: trasmettitore acceso. 
+0:1:47.429687540 - Nodo 2: trasmettitore acceso. 
+0:1:47.439453145 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:47.444961535 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:47.449218770 - Nodo 2: NO_MOVEMENT invio in corso...
+0:1:47.457305881 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:1:47.458984395 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:47.466888401 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:1:47.468750020 - Nodo 4: NO_MOVEMENT invio in corso...
+0:1:47.477020235 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:1:47.478515635 - Nodo 0: risultato ECG = 0
+
+0:1:47.478515635 - OUTPUT = NO_MOVEMENT
+
+
+
+0:1:47.478515645 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:1:47.482528683 - Nodo 1: ricevuto messaggio START. 
+0:1:47.482528683 - Nodo 4: ricevuto messaggio START. 
+0:1:47.482528683 - Nodo 3: ricevuto messaggio START. 
+0:1:47.482528683 - Nodo 2: ricevuto messaggio START. 
+0:1:47.482528703 - Nodo 1: trasmettitore spento. 
+0:1:47.482528703 - Nodo 4: trasmettitore spento. 
+0:1:47.482528703 - Nodo 3: trasmettitore spento. 
+0:1:47.482528703 - Nodo 2: trasmettitore spento. 
+0:1:47.482696528 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 12 
+0:1:57.201171895 - Nodo 2: responso NO_MOVEMENT.
+0:1:57.201171895 - Nodo 1: responso NO_MOVEMENT.
+0:1:57.201171895 - Nodo 3: responso NO_MOVEMENT.
+0:1:57.201171895 - Nodo 4: responso NO_MOVEMENT.
+0:1:57.201171915 - Nodo 2: trasmettitore acceso. 
+0:1:57.201171915 - Nodo 1: trasmettitore acceso. 
+0:1:57.201171915 - Nodo 3: trasmettitore acceso. 
+0:1:57.201171915 - Nodo 4: trasmettitore acceso. 
+0:1:57.210937520 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:57.213104255 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:57.220703145 - Nodo 2: NO_MOVEMENT invio in corso...
+0:1:57.229721036 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:1:57.230468770 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:57.236785871 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:1:57.240234395 - Nodo 4: NO_MOVEMENT invio in corso...
+0:1:57.244583124 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:1:57.246093760 - Nodo 0: risultato ECG = 0
+
+0:1:57.246093760 - OUTPUT = NO_MOVEMENT
+
+
+
+0:1:57.246093770 - FINE
+
+
+
+Simulazione finita!
+
+---------------------------------------------------------------------------------------------> Scenario 3 con estensione TOSSIMLIVE Lato Client
+
+********************************************
+*                                          *
+*             TOSSIM Script                *
+*                                          *
+********************************************
+Initializing mac....
+Initializing radio channels....
+    using topology file: topology.txt
+    using noise file: meyer-heavy.txt
+Initializing simulator....
+Activate debug message on channel main
+Creo nodo 0...
+Creo nodo 1...
+Creo nodo 2...
+Creo nodo 3...
+Creo nodo 4...
+Creating radio channels...
+>>>Creando canale radio dal nodo  0  al nodo  1  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  0  al nodo  2  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  0  al nodo  3  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  0  al nodo  4  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  1  al nodo  0  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  2  al nodo  0  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  3  al nodo  0  con gain  -30.0  dBm
+>>>Creando canale radio dal nodo  4  al nodo  0  con gain  -30.0  dBm
+Initializing Closest Pattern Matching (CPM)...
+Reading noise model data file: meyer-heavy.txt
+Loading:##Done!
+>>>Creating noise model for node: 0
+>>>Creating noise model for node: 1
+>>>Creating noise model for node: 2
+>>>Creating noise model for node: 3
+>>>Creating noise model for node: 4
+Inizio simulazione con TOSSIM! 
+
+
+
+0:0:0.000000010 - Nodo 0: trasmettitore acceso. 
+0:0:0.000000010 - Nodo 1: trasmettitore acceso. 
+0:0:0.000000010 - Nodo 3: trasmettitore acceso. 
+0:0:0.000000010 - Nodo 2: trasmettitore acceso. 
+0:0:0.000000010 - Nodo 4: trasmettitore acceso. 
+
+
+
+0:0:0.001953145 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:0.006744376 - Nodo 4: ricevuto messaggio START. 
+0:0:0.006744376 - Nodo 1: ricevuto messaggio START. 
+0:0:0.006744376 - Nodo 3: ricevuto messaggio START. 
+0:0:0.006744376 - Nodo 2: ricevuto messaggio START. 
+0:0:0.006744396 - Nodo 4: trasmettitore spento. 
+0:0:0.006744396 - Nodo 1: trasmettitore spento. 
+0:0:0.006744396 - Nodo 3: trasmettitore spento. 
+0:0:0.006744396 - Nodo 2: trasmettitore spento. 
+0:0:0.006912222 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 1 
+clients 1, read 0, wrote 0
+0:0:9.724609395 - Nodo 1: responso NO_MOVEMENT.
+0:0:9.724609395 - Nodo 3: responso NO_MOVEMENT.
+0:0:9.724609395 - Nodo 4: responso NO_MOVEMENT.
+0:0:9.724609395 - Nodo 2: responso NO_MOVEMENT.
+0:0:9.724609415 - Nodo 1: trasmettitore acceso. 
+0:0:9.724609415 - Nodo 3: trasmettitore acceso. 
+0:0:9.724609415 - Nodo 4: trasmettitore acceso. 
+0:0:9.724609415 - Nodo 2: trasmettitore acceso. 
+0:0:9.734375020 - Nodo 1: NO_MOVEMENT invio in corso...
+0:0:9.739425649 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:0:9.744140645 - Nodo 2: NO_MOVEMENT invio in corso...
+0:0:9.749694811 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:0:9.753906270 - Nodo 3: NO_MOVEMENT invio in corso...
+0:0:9.763549768 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:0:9.763671895 - Nodo 4: NO_MOVEMENT invio in corso...
+0:0:9.770858742 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:0:9.772460947 - Nodo 0: risultato ECG = 0
+
+0:0:9.772460947 - OUTPUT = NO_MOVEMENT
+
+
+
+0:0:9.772460957 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:9.781127899 - Nodo 4: ricevuto messaggio START. 
+0:0:9.781127899 - Nodo 3: ricevuto messaggio START. 
+0:0:9.781127899 - Nodo 2: ricevuto messaggio START. 
+0:0:9.781127899 - Nodo 1: ricevuto messaggio START. 
+0:0:9.781127919 - Nodo 4: trasmettitore spento. 
+0:0:9.781127919 - Nodo 3: trasmettitore spento. 
+0:0:9.781127919 - Nodo 2: trasmettitore spento. 
+0:0:9.781127919 - Nodo 1: trasmettitore spento. 
+0:0:9.781295744 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 2 
+0:0:19.499023457 - Nodo 1: responso CRISIS.
+0:0:19.499023457 - Nodo 4: responso CRISIS.
+0:0:19.499023457 - Nodo 2: responso CRISIS.
+0:0:19.499023457 - Nodo 3: responso CRISIS.
+0:0:19.499023477 - Nodo 1: trasmettitore acceso. 
+0:0:19.499023477 - Nodo 4: trasmettitore acceso. 
+0:0:19.499023477 - Nodo 2: trasmettitore acceso. 
+0:0:19.499023477 - Nodo 3: trasmettitore acceso. 
+0:0:19.508789082 - Nodo 1: CRISIS invio in corso...
+0:0:19.511001594 - Nodo 0: ricevuto CRISIS da Nodo 1
+0:0:19.518554707 - Nodo 2: CRISIS invio in corso...
+0:0:19.522994989 - Nodo 0: ricevuto CRISIS da Nodo 2
+0:0:19.528320332 - Nodo 3: CRISIS invio in corso...
+0:0:19.530120859 - Nodo 0: ricevuto CRISIS da Nodo 3
+0:0:19.538085957 - Nodo 4: CRISIS invio in corso...
+0:0:19.545532203 - Nodo 0: ricevuto CRISIS da Nodo 4
+0:0:19.546875010 - Nodo 0: risultato ECG = 1
+
+0:0:19.546875010 OUTPUT = CRISIS !!!!!!!!!!!!!!!!!!
+DEBUG (0): INVIO PACCHETTO...
+DEBUG (0): INVIO COMPLETATO.
+
+
+
+0:0:19.546875030 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:19.553085320 - Nodo 4: ricevuto messaggio START. 
+0:0:19.553085320 - Nodo 3: ricevuto messaggio START. 
+0:0:19.553085320 - Nodo 2: ricevuto messaggio START. 
+0:0:19.553085320 - Nodo 1: ricevuto messaggio START. 
+0:0:19.553085340 - Nodo 4: trasmettitore spento. 
+0:0:19.553085340 - Nodo 3: trasmettitore spento. 
+0:0:19.553085340 - Nodo 2: trasmettitore spento. 
+0:0:19.553085340 - Nodo 1: trasmettitore spento. 
+0:0:19.553253166 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 3 
+0:0:29.271484395 - Nodo 1: responso CRISIS.
+0:0:29.271484395 - Nodo 2: responso MOVEMENT.
+0:0:29.271484395 - Nodo 3: responso MOVEMENT.
+0:0:29.271484395 - Nodo 4: responso MOVEMENT.
+0:0:29.271484415 - Nodo 1: trasmettitore acceso. 
+0:0:29.271484415 - Nodo 2: trasmettitore acceso. 
+0:0:29.271484415 - Nodo 3: trasmettitore acceso. 
+0:0:29.271484415 - Nodo 4: trasmettitore acceso. 
+0:0:29.281250020 - Nodo 1: CRISIS invio in corso...
+0:0:29.291015645 - Nodo 2: MOVEMENT invio in corso...
+0:0:29.291351279 - Nodo 0: ricevuto CRISIS da Nodo 1
+0:0:29.296066274 - Nodo 0: ricevuto MOVEMENT da Nodo 2
+0:0:29.300781270 - Nodo 3: MOVEMENT invio in corso...
+0:0:29.310546895 - Nodo 4: MOVEMENT invio in corso...
+0:0:29.311721757 - Nodo 0: ricevuto MOVEMENT da Nodo 3
+0:0:29.321289019 - Nodo 0: ricevuto MOVEMENT da Nodo 4
+0:0:29.322265635 - Nodo 0: risultato ECG = 1
+
+0:0:29.322265635 OUTPUT = MOVEMENT
+
+
+
+0:0:29.322265645 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:29.328155503 - Nodo 4: ricevuto messaggio START. 
+0:0:29.328155503 - Nodo 3: ricevuto messaggio START. 
+0:0:29.328155503 - Nodo 2: ricevuto messaggio START. 
+0:0:29.328155503 - Nodo 1: ricevuto messaggio START. 
+0:0:29.328155523 - Nodo 4: trasmettitore spento. 
+0:0:29.328155523 - Nodo 3: trasmettitore spento. 
+0:0:29.328155523 - Nodo 2: trasmettitore spento. 
+0:0:29.328155523 - Nodo 1: trasmettitore spento. 
+0:0:29.328323348 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 4 
+0:0:39.046875020 - Nodo 3: responso NO_MOVEMENT.
+0:0:39.046875020 - Nodo 2: responso NO_MOVEMENT.
+0:0:39.046875020 - Nodo 1: responso NO_MOVEMENT.
+0:0:39.046875020 - Nodo 4: responso NO_MOVEMENT.
+0:0:39.046875040 - Nodo 3: trasmettitore acceso. 
+0:0:39.046875040 - Nodo 2: trasmettitore acceso. 
+0:0:39.046875040 - Nodo 1: trasmettitore acceso. 
+0:0:39.046875040 - Nodo 4: trasmettitore acceso. 
+0:0:39.056640645 - Nodo 1: NO_MOVEMENT invio in corso...
+0:0:39.063934303 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:0:39.066406270 - Nodo 2: NO_MOVEMENT invio in corso...
+0:0:39.076171895 - Nodo 3: NO_MOVEMENT invio in corso...
+0:0:39.076919514 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:0:39.082717877 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:0:39.085937520 - Nodo 4: NO_MOVEMENT invio in corso...
+0:0:39.088027961 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:0:39.089843760 - Nodo 0: risultato ECG = 1
+
+0:0:39.089843760 - OUTPUT = NO_MOVEMENT
+
+
+
+0:0:39.089843770 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:39.091598520 - Nodo 4: ricevuto messaggio START. 
+0:0:39.091598520 - Nodo 3: ricevuto messaggio START. 
+0:0:39.091598520 - Nodo 2: ricevuto messaggio START. 
+0:0:39.091598520 - Nodo 1: ricevuto messaggio START. 
+0:0:39.091598540 - Nodo 4: trasmettitore spento. 
+0:0:39.091598540 - Nodo 3: trasmettitore spento. 
+0:0:39.091598540 - Nodo 2: trasmettitore spento. 
+0:0:39.091598540 - Nodo 1: trasmettitore spento. 
+0:0:39.091766366 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 5 
+0:0:48.809570332 - Nodo 3: responso NO_MOVEMENT.
+0:0:48.809570332 - Nodo 1: responso NO_MOVEMENT.
+0:0:48.809570332 - Nodo 4: responso NO_MOVEMENT.
+0:0:48.809570332 - Nodo 2: responso NO_MOVEMENT.
+0:0:48.809570352 - Nodo 3: trasmettitore acceso. 
+0:0:48.809570352 - Nodo 1: trasmettitore acceso. 
+0:0:48.809570352 - Nodo 4: trasmettitore acceso. 
+0:0:48.809570352 - Nodo 2: trasmettitore acceso. 
+0:0:48.819335957 - Nodo 1: NO_MOVEMENT invio in corso...
+0:0:48.828674281 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:0:48.829101582 - Nodo 2: NO_MOVEMENT invio in corso...
+0:0:48.832244874 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:0:48.838867207 - Nodo 3: NO_MOVEMENT invio in corso...
+0:0:48.840713510 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:0:48.848632832 - Nodo 4: NO_MOVEMENT invio in corso...
+0:0:48.856002784 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:0:48.857421885 - Nodo 0: risultato ECG = 0
+
+0:0:48.857421885 - OUTPUT = NO_MOVEMENT
+
+
+
+0:0:48.857421895 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:48.858490004 - Nodo 4: ricevuto messaggio START. 
+0:0:48.858490004 - Nodo 3: ricevuto messaggio START. 
+0:0:48.858490004 - Nodo 2: ricevuto messaggio START. 
+0:0:48.858490004 - Nodo 1: ricevuto messaggio START. 
+0:0:48.858490024 - Nodo 4: trasmettitore spento. 
+0:0:48.858490024 - Nodo 3: trasmettitore spento. 
+0:0:48.858490024 - Nodo 2: trasmettitore spento. 
+0:0:48.858490024 - Nodo 1: trasmettitore spento. 
+0:0:48.858657849 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 6 
+0:0:58.577148457 - Nodo 4: responso NO_MOVEMENT.
+0:0:58.577148457 - Nodo 2: responso NO_MOVEMENT.
+0:0:58.577148457 - Nodo 1: responso NO_MOVEMENT.
+0:0:58.577148457 - Nodo 3: responso NO_MOVEMENT.
+0:0:58.577148477 - Nodo 4: trasmettitore acceso. 
+0:0:58.577148477 - Nodo 2: trasmettitore acceso. 
+0:0:58.577148477 - Nodo 1: trasmettitore acceso. 
+0:0:58.577148477 - Nodo 3: trasmettitore acceso. 
+0:0:58.586914082 - Nodo 1: NO_MOVEMENT invio in corso...
+0:0:58.593063338 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:0:58.596679707 - Nodo 2: NO_MOVEMENT invio in corso...
+0:0:58.600708004 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:0:58.606445332 - Nodo 3: NO_MOVEMENT invio in corso...
+0:0:58.611892688 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:0:58.616210957 - Nodo 4: NO_MOVEMENT invio in corso...
+0:0:58.620025632 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:0:58.621093760 - Nodo 0: risultato ECG = 0
+
+0:0:58.621093760 - OUTPUT = NO_MOVEMENT
+
+
+
+0:0:58.621093770 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:0:58.630477870 - Nodo 4: ricevuto messaggio START. 
+0:0:58.630477870 - Nodo 3: ricevuto messaggio START. 
+0:0:58.630477870 - Nodo 2: ricevuto messaggio START. 
+0:0:58.630477870 - Nodo 1: ricevuto messaggio START. 
+0:0:58.630477890 - Nodo 4: trasmettitore spento. 
+0:0:58.630477890 - Nodo 3: trasmettitore spento. 
+0:0:58.630477890 - Nodo 2: trasmettitore spento. 
+0:0:58.630477890 - Nodo 1: trasmettitore spento. 
+0:0:58.630645716 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 7 
+0:1:8.348632832 - Nodo 4: responso NO_MOVEMENT.
+0:1:8.348632832 - Nodo 2: responso NO_MOVEMENT.
+0:1:8.348632832 - Nodo 3: responso NO_MOVEMENT.
+0:1:8.348632832 - Nodo 1: responso NO_MOVEMENT.
+0:1:8.348632852 - Nodo 4: trasmettitore acceso. 
+0:1:8.348632852 - Nodo 2: trasmettitore acceso. 
+0:1:8.348632852 - Nodo 3: trasmettitore acceso. 
+0:1:8.348632852 - Nodo 1: trasmettitore acceso. 
+0:1:8.358398457 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:8.364440902 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:8.368164082 - Nodo 2: NO_MOVEMENT invio in corso...
+0:1:8.371017459 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:1:8.377929707 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:8.386886564 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:1:8.387695332 - Nodo 4: NO_MOVEMENT invio in corso...
+0:1:8.397964437 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:1:8.399414072 - Nodo 0: risultato ECG = 0
+
+0:1:8.399414072 - OUTPUT = NO_MOVEMENT
+
+
+
+0:1:8.399414082 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:1:8.402038578 - Nodo 4: ricevuto messaggio START. 
+0:1:8.402038578 - Nodo 3: ricevuto messaggio START. 
+0:1:8.402038578 - Nodo 2: ricevuto messaggio START. 
+0:1:8.402038578 - Nodo 1: ricevuto messaggio START. 
+0:1:8.402038598 - Nodo 4: trasmettitore spento. 
+0:1:8.402038598 - Nodo 3: trasmettitore spento. 
+0:1:8.402038598 - Nodo 2: trasmettitore spento. 
+0:1:8.402038598 - Nodo 1: trasmettitore spento. 
+0:1:8.402206424 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 8 
+0:1:18.120117207 - Nodo 2: responso NO_MOVEMENT.
+0:1:18.120117207 - Nodo 4: responso NO_MOVEMENT.
+0:1:18.120117207 - Nodo 3: responso NO_MOVEMENT.
+0:1:18.120117207 - Nodo 1: responso NO_MOVEMENT.
+0:1:18.120117227 - Nodo 2: trasmettitore acceso. 
+0:1:18.120117227 - Nodo 4: trasmettitore acceso. 
+0:1:18.120117227 - Nodo 3: trasmettitore acceso. 
+0:1:18.120117227 - Nodo 1: trasmettitore acceso. 
+0:1:18.129882832 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:18.131683359 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:18.139648457 - Nodo 2: NO_MOVEMENT invio in corso...
+0:1:18.148849453 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:1:18.149414082 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:18.150939952 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:1:18.159179707 - Nodo 4: NO_MOVEMENT invio in corso...
+0:1:18.163452143 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:1:18.165039072 - Nodo 0: risultato ECG = 1
+
+0:1:18.165039072 - OUTPUT = NO_MOVEMENT
+
+
+
+0:1:18.165039082 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:1:18.168823240 - Nodo 4: ricevuto messaggio START. 
+0:1:18.168823240 - Nodo 3: ricevuto messaggio START. 
+0:1:18.168823240 - Nodo 2: ricevuto messaggio START. 
+0:1:18.168823240 - Nodo 1: ricevuto messaggio START. 
+0:1:18.168823260 - Nodo 4: trasmettitore spento. 
+0:1:18.168823260 - Nodo 3: trasmettitore spento. 
+0:1:18.168823260 - Nodo 2: trasmettitore spento. 
+0:1:18.168823260 - Nodo 1: trasmettitore spento. 
+0:1:18.168991085 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 9 
+0:1:27.886718770 - Nodo 2: responso NO_MOVEMENT.
+0:1:27.886718770 - Nodo 4: responso NO_MOVEMENT.
+0:1:27.886718770 - Nodo 3: responso NO_MOVEMENT.
+0:1:27.886718770 - Nodo 1: responso NO_MOVEMENT.
+0:1:27.886718790 - Nodo 2: trasmettitore acceso. 
+0:1:27.886718790 - Nodo 4: trasmettitore acceso. 
+0:1:27.886718790 - Nodo 3: trasmettitore acceso. 
+0:1:27.886718790 - Nodo 1: trasmettitore acceso. 
+0:1:27.896484395 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:27.902847272 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:27.906250020 - Nodo 2: NO_MOVEMENT invio in corso...
+0:1:27.912353500 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:1:27.916015645 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:27.925750695 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:1:27.925781270 - Nodo 4: NO_MOVEMENT invio in corso...
+0:1:27.934921231 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:1:27.936523447 - Nodo 0: risultato ECG = 0
+
+0:1:27.936523447 - OUTPUT = NO_MOVEMENT
+
+
+
+0:1:27.936523457 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:1:27.940414426 - Nodo 4: ricevuto messaggio START. 
+0:1:27.940414426 - Nodo 3: ricevuto messaggio START. 
+0:1:27.940414426 - Nodo 2: ricevuto messaggio START. 
+0:1:27.940414426 - Nodo 1: ricevuto messaggio START. 
+0:1:27.940414446 - Nodo 4: trasmettitore spento. 
+0:1:27.940414446 - Nodo 3: trasmettitore spento. 
+0:1:27.940414446 - Nodo 2: trasmettitore spento. 
+0:1:27.940414446 - Nodo 1: trasmettitore spento. 
+0:1:27.940582271 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 10 
+0:1:37.658203145 - Nodo 4: responso NO_MOVEMENT.
+0:1:37.658203145 - Nodo 2: responso NO_MOVEMENT.
+0:1:37.658203145 - Nodo 1: responso NO_MOVEMENT.
+0:1:37.658203145 - Nodo 3: responso NO_MOVEMENT.
+0:1:37.658203165 - Nodo 4: trasmettitore acceso. 
+0:1:37.658203165 - Nodo 2: trasmettitore acceso. 
+0:1:37.658203165 - Nodo 1: trasmettitore acceso. 
+0:1:37.658203165 - Nodo 3: trasmettitore acceso. 
+0:1:37.667968770 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:37.674407941 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:37.677734395 - Nodo 2: NO_MOVEMENT invio in corso...
+0:1:37.682144159 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:1:37.687500020 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:37.697265645 - Nodo 4: NO_MOVEMENT invio in corso...
+0:1:37.698135333 - Nodo 3: ack non arrivato, reinvio in corso...
+0:1:37.698135343 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:37.699111947 - Nodo 4: ack non arrivato, reinvio in corso...
+0:1:37.699111957 - Nodo 4: NO_MOVEMENT invio in corso...
+0:1:37.704315174 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:1:37.707427892 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:1:37.708984385 - Nodo 0: risultato ECG = 0
+
+0:1:37.708984385 - OUTPUT = NO_MOVEMENT
+
+
+
+0:1:37.708984395 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:1:37.714920029 - Nodo 4: ricevuto messaggio START. 
+0:1:37.714920029 - Nodo 3: ricevuto messaggio START. 
+0:1:37.714920029 - Nodo 2: ricevuto messaggio START. 
+0:1:37.714920029 - Nodo 1: ricevuto messaggio START. 
+0:1:37.714920049 - Nodo 4: trasmettitore spento. 
+0:1:37.714920049 - Nodo 3: trasmettitore spento. 
+0:1:37.714920049 - Nodo 2: trasmettitore spento. 
+0:1:37.714920049 - Nodo 1: trasmettitore spento. 
+0:1:37.715087875 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 11 
+0:1:47.433593770 - Nodo 4: responso NO_MOVEMENT.
+0:1:47.433593770 - Nodo 1: responso NO_MOVEMENT.
+0:1:47.433593770 - Nodo 3: responso NO_MOVEMENT.
+0:1:47.433593770 - Nodo 2: responso NO_MOVEMENT.
+0:1:47.433593790 - Nodo 4: trasmettitore acceso. 
+0:1:47.433593790 - Nodo 1: trasmettitore acceso. 
+0:1:47.433593790 - Nodo 3: trasmettitore acceso. 
+0:1:47.433593790 - Nodo 2: trasmettitore acceso. 
+0:1:47.443359395 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:47.451599093 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:47.453125020 - Nodo 2: NO_MOVEMENT invio in corso...
+0:1:47.459869365 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:1:47.462890645 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:47.465347295 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:1:47.472656270 - Nodo 4: NO_MOVEMENT invio in corso...
+0:1:47.475296025 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:1:47.476562510 - Nodo 0: risultato ECG = 0
+
+0:1:47.476562510 - OUTPUT = NO_MOVEMENT
+
+
+
+0:1:47.476562520 - Nodo 0: Tentativo inizio sessione di monitoraggio,
+0:1:47.484909028 - Nodo 4: ricevuto messaggio START. 
+0:1:47.484909028 - Nodo 3: ricevuto messaggio START. 
+0:1:47.484909028 - Nodo 2: ricevuto messaggio START. 
+0:1:47.484909028 - Nodo 1: ricevuto messaggio START. 
+0:1:47.484909048 - Nodo 4: trasmettitore spento. 
+0:1:47.484909048 - Nodo 3: trasmettitore spento. 
+0:1:47.484909048 - Nodo 2: trasmettitore spento. 
+0:1:47.484909048 - Nodo 1: trasmettitore spento. 
+0:1:47.485076874 - Nodo 0: Messaggi START arrivati a destinazione. Sessione di monitoraggio iniziata. Numero 12 
+0:1:57.203125020 - Nodo 1: responso NO_MOVEMENT.
+0:1:57.203125020 - Nodo 4: responso NO_MOVEMENT.
+0:1:57.203125020 - Nodo 3: responso NO_MOVEMENT.
+0:1:57.203125020 - Nodo 2: responso NO_MOVEMENT.
+0:1:57.203125040 - Nodo 1: trasmettitore acceso. 
+0:1:57.203125040 - Nodo 4: trasmettitore acceso. 
+0:1:57.203125040 - Nodo 3: trasmettitore acceso. 
+0:1:57.203125040 - Nodo 2: trasmettitore acceso. 
+0:1:57.212890645 - Nodo 1: NO_MOVEMENT invio in corso...
+0:1:57.218902572 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 1
+0:1:57.222656270 - Nodo 2: NO_MOVEMENT invio in corso...
+0:1:57.231277435 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 2
+0:1:57.232421895 - Nodo 3: NO_MOVEMENT invio in corso...
+0:1:57.240051245 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 3
+0:1:57.242187520 - Nodo 4: NO_MOVEMENT invio in corso...
+0:1:57.252151451 - Nodo 0: ricevuto NO_MOVEMENT da Nodo 4
+0:1:57.253906260 - Nodo 0: risultato ECG = 0
+
+0:1:57.253906260 - OUTPUT = NO_MOVEMENT
+
+
+
+0:1:57.253906270 - FINE
+
+
+
+Simulazione finita!
+
+
+---------------------------------------------------------------------------------------------> Scenario 3 con estensione TOSSIMLIVE Lato Server
+
+user@instant-contiki:~/bsn_project$ java BSNNode -comm sf@localhost:9002
+CRISI RILEVATA NELL' ITERAZIONE NUMERO 2
+
+
+

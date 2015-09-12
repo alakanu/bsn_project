@@ -99,6 +99,8 @@ for i in range(0, 1000000):
   if ( sf_process == True ):
 	sf.process();
 
+
+
 	
 print "\n\n\nSimulazione finita!";
 

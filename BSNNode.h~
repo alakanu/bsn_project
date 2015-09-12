@@ -21,7 +21,7 @@ typedef nx_struct bsn_msg {
 #define DELAY 10
 
 enum {
-  AM_BSN_MSG = 0x89,
+  AM_B_S_N_NODE_MSG = 0x89,
 };
 
 enum{

@@ -9,7 +9,7 @@ BSNNode.class: $(wildcard *.java) BSNNodeMsg.java
 	javac -target 1.4 -source 1.4 *.java
 
 BSNNodeMsg.java:
-	mig java -target=null $(CFLAGS) -java-classname=BSNNodeMsg BSNNode.h bsn_msg -o $@
+	mig java -target=null $(CFLAGS) -java-classname=BSNNodeMsg BSNNode.h b_s_n_node_msg -o $@
 
 include $(MAKERULES)
 
